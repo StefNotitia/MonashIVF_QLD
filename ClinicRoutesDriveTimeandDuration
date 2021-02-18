@@ -1,0 +1,269 @@
+
+#install.packages(c("ggmap", "dplyr","tmaptools","ggplot2","tidyr","DT","knitr","readr",
+#                   "RCurl","jsonlite","tidyverse","leaflet","remotes","googlePolylines",
+#                   "ggforce","units","reshape2"))
+
+#remotes::install_github("GIScience/openrouteservice-r")
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tibble)
+library(ggforce)
+library(units)
+library(tidyr)
+library(ggmap)
+library(DT)
+library(knitr)
+library(tmaptools)
+library(RCurl)
+library(jsonlite)
+library(tidyverse)
+library(leaflet)
+library(openrouteservice)
+library(leaflet)
+library(sf)
+library(reshape2)
+library(googlePolylines)
+
+
+icon.red <- awesomeIcons(
+  icon = "medkit",
+  library = "fa",
+  iconColor = "#ffffff",
+  markerColor = "red"
+)
+
+icon.orange <- awesomeIcons(
+  icon = "ios-close",
+  library = "ion",
+  iconColor = "#ffffff",
+  markerColor = "orange"
+)
+
+icon.blue <- awesomeIcons(
+  icon = "",
+  library = "fa",
+  iconColor = "#ffffff",
+  markerColor = "red"
+)
+
+
+# one-time API key set-up
+ors_api_key("5b3ce3597851110001cf6248b376e02542c242658eda178ccdae158c")
+register_google(key = "AIzaSyDL8XvPwNR5o_IxnqtocWfN-0m3qAH0fBs")
+
+df_future <- data.frame(
+  rooms = c( "339 Coronation Drive, QLD 4064",
+             "33 Park Road,  QLD 4064",
+             "Kings Row Office Park, QLD 4064",
+             "RiverCity Private Hospital, QLD 4066"),
+  stringsAsFactors = FALSE
+)  
+
+df_future <- mutate_geocode(df_future, rooms)
+write.csv(df_future, "df_future.csv")
+
+df_hospital <- data.frame(
+  hospitals = c("The Wesley Hospital, QLD 4066"
+  ),
+  stringsAsFactors = FALSE)
+
+df_hospital <-  mutate_geocode(df_hospital, hospitals)
+write.csv(df_hospital, "df_hospital.csv")
+
+df_current <- data.frame(
+  rooms = c("St Andrew’s Place, QLD 4000", 
+            "Sunnybank Centre for Women, QLD 4109",
+            "Northwest Private Hospital, QLD 4053",
+            "North Lakes Specialist Medical Centre, QLD 4509"
+  ),
+  stringsAsFactors = FALSE
+)
+
+df_current <- mutate_geocode(df_current, rooms)
+write.csv(df_current, "df_current.csv")
+
+#current sites to hospital
+
+df_current <- read_csv("df_current.csv")
+df_hospital <- read_csv("df_hospital.csv")
+df_future <- read_csv("df_future.csv")
+
+
+#Current duration and distance
+
+j = 1:nrow(df_future)
+
+DistnaceDurationTemp = list()
+
+
+for (i in j) {
+  
+  coordinates <- list(c(df_hospital$lon, df_hospital$lat), c(df_current$lon[i], df_current$lat[i]))
+  
+  route <- ors_directions(coordinates, format="geojson")
+  
+  # route length in kilometres and duration in hours
+  x <-unlist(route$features[[1]]$properties$summary) / c(1000, 3600)
+  x <- t(x)
+  x <- data.frame(x)
+  x <- x  %>% add_column(rooms = df_future$rooms[i], lon = df_future$lon[i], 
+                         lat = df_future$lat[i])
+  
+  DistnaceDurationTemp[[i]] = x  # add it to your list
+}
+
+DistnaceDurationHC = do.call(rbind, DistnaceDurationTemp)
+
+
+#Future duration and distance
+
+j = 1:nrow(df_future)
+
+DistnaceDurationTemp = list()
+
+for (i in j) {
+  
+  coordinates <- list(c(df_hospital$lon, df_hospital$lat), c(df_future$lon[i], df_future$lat[i]))
+  
+  route <- ors_directions(coordinates, format="geojson")
+  
+  # route length in kilometres and duration in hours
+  x <-unlist(route$features[[1]]$properties$summary) / c(1000, 3600)
+  x <- t(x)
+  x <- data.frame(x)
+  x <- x  %>% add_column(rooms = df_future$rooms[i], lon = df_future$lon[i], 
+                         lat = df_future$lat[i])
+  
+  DistnaceDurationTemp[[i]] = x  # add it to your list
+}
+
+DistnaceDurationHF = do.call(rbind, DistnaceDurationTemp)
+
+
+#Current to future sites
+
+l = 1:nrow(df_current)
+j = 1:nrow(df_future)
+
+
+DistnaceDurationTemp = list()
+
+for (k in l) {
+  
+  for (i in j) {
+    
+    coordinates <- list(c(df_current$lon[k], df_current$lat[k]), c(df_future$lon[i], df_future$lat[i]))
+    
+    # find route 
+    route <- ors_directions(coordinates, format="geojson")
+    
+    # route length in kilometres and duration in hours
+    x <-unlist(route$features[[1]]$properties$summary) / c(1000, 3600)
+    x <- t(x)
+    x <- data.frame(x)
+    x <- x  %>% add_column(FutureRoom = df_future$rooms[i])
+    x <- x  %>% add_column(CurrentRoom = df_current$rooms[k])
+    
+    DistnaceDurationTemp[[i]] = x  # add it to your list
+  }
+  
+  DistnaceDurationTempFC[[k]] = do.call(rbind, DistnaceDurationTemp[[i]])
+  
+}
+
+#future sites to current to hospital
+
+coordinates11 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[1], df_future$lat[1]))
+coordinates12 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[2], df_future$lat[2]))
+coordinates13 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[3], df_future$lat[3]))
+coordinates14 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinates21 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[1], df_future$lat[1]))
+coordinates22 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[2], df_future$lat[2]))
+coordinates23 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[3], df_future$lat[3]))
+coordinates24 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinates31 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[1], df_future$lat[1]))
+coordinates32 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[2], df_future$lat[2]))
+coordinates33 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[3], df_future$lat[3]))
+coordinates34 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinates41 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[1], df_future$lat[1]))
+coordinates42 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[2], df_future$lat[2]))
+coordinates43 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[3], df_future$lat[3]))
+coordinates44 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinatesH1 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[1], df_future$lat[1]))
+coordinatesH2 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[2], df_future$lat[2]))
+coordinatesH3 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[3], df_future$lat[3]))
+coordinatesH4 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[4], df_future$lat[4])) 
+# find route 
+
+route11 <- ors_directions(coordinates11, format="geojson")
+route12 <- ors_directions(coordinates12, format="geojson")
+route13 <- ors_directions(coordinates13, format="geojson")
+route14 <- ors_directions(coordinates14, format="geojson")
+
+route21 <- ors_directions(coordinates21, format="geojson")
+route22 <- ors_directions(coordinates22, format="geojson")
+route23 <- ors_directions(coordinates23, format="geojson")
+route24 <- ors_directions(coordinates24, format="geojson")
+
+route31 <- ors_directions(coordinates31, format="geojson")
+route32 <- ors_directions(coordinates32, format="geojson")
+route33 <- ors_directions(coordinates33, format="geojson")
+route34 <- ors_directions(coordinates34, format="geojson")
+
+route41 <- ors_directions(coordinates41, format="geojson")
+route42 <- ors_directions(coordinates42, format="geojson")
+route43 <- ors_directions(coordinates43, format="geojson")
+route44 <- ors_directions(coordinates44, format="geojson")
+
+routeH1 <- ors_directions(coordinatesH1, format="geojson")
+routeH2 <- ors_directions(coordinatesH2, format="geojson")
+routeH3 <- ors_directions(coordinatesH3, format="geojson")
+routeH4 <- ors_directions(coordinatesH4, format="geojson")
+
+
+
+leaflet() %>% addTiles() %>%
+  addMarkers(lng =df_current$lon, lat = df_current$lat, 
+             popup = df_current$rooms, label = df_current$rooms) %>%
+  addAwesomeMarkers(lng =df_hospital$lon, lat = df_hospital$lat, label = df_hospital$hospitals, icon = icon.red) %>%
+  addAwesomeMarkers(lng =df_future$lon, lat = df_future$lat, icon = icon.orange,
+                    label = df_future$rooms)  %>%
+  
+  
+  addGeoJSON(route11, fill=FALSE) %>%  fitBBox(route11$bbox) %>%
+  addGeoJSON(routeH1, fill=FALSE) %>%  fitBBox(routeH1$bbox) %>%
+  
+  addGeoJSON(route12, fill=FALSE) %>%  fitBBox(route12$bbox) %>%
+  addGeoJSON(routeH2, fill=FALSE) %>%  fitBBox(routeH2$bbox) %>%  
+  
+  addGeoJSON(route13, fill=FALSE) %>%  fitBBox(route13$bbox) %>%
+  addGeoJSON(routeH3, fill=FALSE) %>%  fitBBox(routeH3$bbox) %>%
+  
+  addGeoJSON(route14, fill=FALSE) %>%  fitBBox(route14$bbox) %>%
+  addGeoJSON(routeH4, fill=FALSE) %>%  fitBBox(routeH4$bbox) %>%
+  
+  
+  addGeoJSON(route21, fill=FALSE) %>%  fitBBox(route21$bbox) %>%
+  addGeoJSON(route22, fill=FALSE) %>%  fitBBox(route22$bbox) %>%
+  addGeoJSON(route23, fill=FALSE) %>%  fitBBox(route23$bbox) %>%
+  addGeoJSON(route24, fill=FALSE) %>%  fitBBox(route24$bbox) %>%
+  
+  addGeoJSON(route31, fill=FALSE) %>%  fitBBox(route31$bbox) %>%
+  addGeoJSON(route32, fill=FALSE) %>%  fitBBox(route32$bbox) %>%
+  addGeoJSON(route33, fill=FALSE) %>%  fitBBox(route33$bbox) %>%
+  addGeoJSON(route34, fill=FALSE) %>%  fitBBox(route34$bbox) %>%
+  
+  addGeoJSON(route41, fill=FALSE) %>%  fitBBox(route41$bbox) %>%
+  addGeoJSON(route42, fill=FALSE) %>%  fitBBox(route42$bbox) %>%
+  addGeoJSON(route43, fill=FALSE) %>%  fitBBox(route43$bbox) %>%
+  addGeoJSON(route44, fill=FALSE) %>%  fitBBox(route44$bbox) 
+
+
+
+
