@@ -1,0 +1,60 @@
+#drive polygons template using variables, loops
+
+#provide a catchment/isochrone locations table
+
+##table structure is name/id, latitude, longitude, driving time distance
+
+
+
+#file load
+QLDPostcode <- read_csv("qld2.csv")
+
+QLDPostcode <- QLDPostcode %>% add_column(upper_time_tmp = 10)
+
+locations_df <- data.frame(QLDPostcode)
+
+#Location file for specific rows
+
+locations_df <- QLDPostcode[668:671,]
+
+locations_df <- data.frame(locations_df)
+
+#loop is one iteration per each location_df value
+
+library(osrm)
+options(osrm.server = "http://localhost:5000/")
+getOption("osrm.server")
+
+library(maptools)
+library(dplyr)
+
+j = 1:nrow(locations_df)
+
+for (i in j) {
+  
+  td <- getwd()
+  upper_time <- locations_df$upper_time_tmp[i]
+  resolution <- 60
+  polygon_centroid_lon <- locations_df$lon_tmp[i]
+  polygon_centroid_lat <- locations_df$lat_tmp[i]
+  polygon_name <- locations_df$location_tmp[i]
+  
+  #creating isochrone/polygon
+  
+  isochrone_tmp <- osrmIsochrone(loc = c(polygon_centroid_lon,
+                                         polygon_centroid_lat),
+                                 breaks = seq(from = 0, to = 10, by = 10), 
+                                 res = 60)
+  
+  kmlPolygons(
+    isochrone_tmp,
+    kmlfile = paste(td,
+                    paste(polygon_name,"_",upper_time,".kml",sep=""),
+                    sep="/"),
+    name = paste(polygon_name, upper_time, "min", sep=" "),  
+    kmlname = polygon_name
+  )
+  
+  remove(isochrone_tmp)
+  
+}
