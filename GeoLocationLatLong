@@ -1,0 +1,38 @@
+install.packages(c("dplyr", "tmaptools", "ggplot2", "tidyr", "ggmap", "DT", "knitr", 
+                   "readr","RCurl", "jsonlite", "tidyverse", "leaflet"))
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggmap)
+library(DT)
+library(knitr)
+library(tmaptools)
+library(RCurl)
+library(jsonlite)
+library(tidyverse)
+library(leaflet)
+
+register_google(key = "AIzaSyDL8XvPwNR5o_IxnqtocWfN-0m3qAH0fBs")
+
+df <- data.frame(
+  rooms = c("St Andrew’s Place, QLD 4000", "The Wesley Hospital, QLD 4066",
+            "Sunnybank Centre for Women, QLD 4109", "Northwest Private Hospital, QLD 4053",
+            "North Lakes Specialist Medical Centre, QLD 4509"
+  ),
+  stringsAsFactors = FALSE
+)
+
+CurrentRoomsLoc <- mutate_geocode(df, rooms)
+
+
+df2 <- data.frame(
+  rooms = c( "339 Coronation Drive, QLD 4064",
+             "33 Park Road,  QLD 4064",
+             "Kings Row Office Park, QLD 4064",
+             "RiverCity Private Hospital, QLD 4066"),
+  stringsAsFactors = FALSE
+)  
+
+FutureRoomsLoc <- mutate_geocode(df2, rooms)
+
