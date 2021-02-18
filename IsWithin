@@ -1,0 +1,64 @@
+
+###within Isochrone template
+
+#this is comprised of two tables
+
+#a catchment/isochrone locations table
+
+##table structure is name/id, latitude, longitude, driving time distance
+
+locations_df <- data.frame(location_tmp,lon_tmp,lat_tmp,upper_time_tmp)
+
+#a 'is within' table
+iswithin <- read_csv("iswithin.csv")
+
+
+#Location file
+is_within_df <- data.frame(iswithin)
+
+
+##table structure is name/id, latitude, longitude
+
+//is_within_df <- data.frame(is_within_location_tmp,is_within_latitude_tmp,is_within_longitude_tmp)
+
+#loop is one iteration per each location_df value
+
+library(osrm)
+library(dplyr)
+
+j = 1:nrow(locations_df)
+
+for (i in j) {
+  
+  upper_time <- locations_df$upper_time_tmp[i]
+  resolution <- 60
+  polygon_centroid_lon <- locations_df$lon_tmp[i]
+  polygon_centroid_lat <- locations_df$lat_tmp[i]
+  polygon_name <- locations_df$location_tmp[i]
+  is_within_source <- "EmergencyDepartment" #this is a variable to define what the 'is within' table information holds (eg postcode, school)
+  boolean_column_name <- paste("Is",is_within_source,"Within",upper_time,"minOf",polygon_name,sep="")
+  
+  #creating isochrone/polygon
+  
+  isochrone_tmp <- osrmIsochrone(loc = c(polygon_centroid_lon,
+                                         polygon_centroid_lat),
+                                 breaks = seq(from = 0, to = upper_time, by = upper_time), res = resolution)
+  
+  #building dataframe off boolean response to "is location within polygon?"
+  
+  tmp_df <- cbind(as.data.frame(is_within_df$is_within_location_tmp),
+                  point.in.polygon(is_within_df$is_within_longitude_tmp,is_within_df$is_within_latitude_tmp, isochrone_tmp@polygons[[1]]@Polygons[[1]]@coords[,1],isochrone_tmp@polygons[[1]]@Polygons[[1]]@coords[,2])
+  )
+  
+  #renaming columns
+  names(tmp_df) <- c("Location_ID",boolean_column_name)
+  
+  #filtering on only true (1) values
+  tmp_df <- tmp_df %>% filter(.[[2]]==1)
+  
+  #writing out table as csv
+  write.csv(tmp_df,file=paste("Is",is_within_source,"Within",upper_time,"minOf",polygon_name,"_table.csv",sep=""),row.names = FALSE)
+  
+  remove(tmp_df)
+  
+}
