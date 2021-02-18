@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4724_Port Wine</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4724_Port Wine 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.961033061919,-23.5551536331073
+146.981768991803,-23.5741603835406
+146.961033061919,-23.5931643831201
+146.940297132036,-23.5741603835406
+146.961033061919,-23.5551536331073
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4156_Burbank</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4156_Burbank 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.124309918576,-27.4970344385322
+153.124909718201,-27.4975664803455
+153.124309918576,-27.4980985195873
+153.123710118951,-27.4975664803455
+153.124309918576,-27.4970344385322
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

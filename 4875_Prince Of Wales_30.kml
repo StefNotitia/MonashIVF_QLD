@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4875_Prince Of Wales</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4875_Prince Of Wales 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+142.299863631889,-10.9023018409507
+142.315991577354,-10.9181382732221
+142.317167285214,-10.9375727405911
+142.308957891064,-10.9570059341249
+142.299863631889,-10.9659342710369
+142.290769372714,-10.9570059341249
+142.282559978564,-10.9375727405911
+142.280070244272,-10.9213774394863
+142.260276856656,-10.9367891173455
+142.24048346904,-10.9369344606329
+142.220690081424,-10.9296423978333
+142.208973652537,-10.9181382732221
+142.220690081424,-10.9066337030274
+142.24048346904,-10.8993408962904
+142.260276856656,-10.8994862579034
+142.280070244272,-10.9148990716333
+142.299863631889,-10.9023018409507
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

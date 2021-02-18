@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4121_Holland Park</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4121_Holland Park 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.017712122704,-26.9109497360397
+152.994619837152,-26.9315395037578
+152.9715275516,-26.9109497360397
+152.994619837152,-26.8903562120688
+153.017712122704,-26.9109497360397
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

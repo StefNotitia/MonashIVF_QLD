@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4810_Townsville</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4810_Townsville 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.34933886006,-18.9612901890966
+146.374263866687,-18.9848610563459
+146.34933886006,-19.0084285880565
+146.324413853432,-18.9848610563459
+146.34933886006,-18.9612901890966
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4165_Mount Cotton</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4165_Mount Cotton 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.28049448968,-27.5846468112694
+153.282017057959,-27.5859962973972
+153.28049448968,-27.5873457669187
+153.278971921402,-27.5859962973972
+153.28049448968,-27.5846468112694
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

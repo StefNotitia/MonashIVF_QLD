@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4103_Annerley</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4103_Annerley 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.035597795872,-27.3645455297519
+153.036797395122,-27.3656108887016
+153.035597795872,-27.3666762373982
+153.034398196623,-27.3656108887016
+153.035597795872,-27.3645455297519
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

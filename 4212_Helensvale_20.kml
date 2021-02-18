@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4212_Helensvale</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4212_Helensvale 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.235823061919,-27.7596362530815
+153.228625466422,-27.7532668474525
+153.235823061919,-27.7468970692173
+153.243020657416,-27.7532668474525
+153.249018653663,-27.7588274603237
+153.255930630291,-27.764943806435
+153.249018653663,-27.7710598088291
+153.242106677035,-27.764943806435
+153.235823061919,-27.7596362530815
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

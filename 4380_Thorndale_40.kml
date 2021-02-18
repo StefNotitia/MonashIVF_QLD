@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4380_Thorndale</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4380_Thorndale 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.949369142209,-28.4595589486302
+151.950625865233,-28.4606637955348
+151.949369142209,-28.4617686308907
+151.948112419186,-28.4606637955348
+151.949369142209,-28.4595589486302
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

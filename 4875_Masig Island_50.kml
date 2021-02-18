@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4875_Masig Island</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4875_Masig Island 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+142.566132675428,-10.677273575171
+142.566116899714,-10.709689664581
+142.533792046952,-10.709689664581
+142.501467194189,-10.709689664581
+142.501451418475,-10.677273575171
+142.533792046952,-10.6454912203272
+142.566132675428,-10.677273575171
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

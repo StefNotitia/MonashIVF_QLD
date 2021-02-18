@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4378_Applethorpe</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4378_Applethorpe 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.964896693808,-28.505455762529
+151.966419262086,-28.5067937439179
+151.964896693808,-28.5081317083377
+151.96337412553,-28.5067937439179
+151.964896693808,-28.505455762529
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

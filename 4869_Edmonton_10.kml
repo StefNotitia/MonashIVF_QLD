@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4869_Edmonton</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4869_Edmonton 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.747094289304,-16.9660584494408
+145.74649448968,-16.9666321435821
+145.745894690055,-16.9660584494408
+145.745894690055,-16.959747698233
+145.74649448968,-16.9591739830652
+145.747094289304,-16.959747698233
+145.747094289304,-16.9660584494408
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

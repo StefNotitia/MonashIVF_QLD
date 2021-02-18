@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4723_Khosh Bulduk</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4723_Khosh Bulduk 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.05498897936,-22.7785161030195
+148.059049161435,-22.7822595736074
+148.05498897936,-22.7860029414739
+148.050928797285,-22.7822595736074
+148.05498897936,-22.7785161030195
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

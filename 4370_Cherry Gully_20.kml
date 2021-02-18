@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Cherry Gully</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Cherry Gully 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.051402204128,-28.3183721180256
+152.053601469419,-28.3203081692538
+152.051402204128,-28.3222441852276
+152.049202938838,-28.3203081692538
+152.051402204128,-28.3183721180256
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

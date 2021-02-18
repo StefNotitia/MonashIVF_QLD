@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4659_Howard</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4659_Howard 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.598690081424,-25.2262159905567
+152.59978971407,-25.2272107495216
+152.598690081424,-25.2282055003496
+152.597590448779,-25.2272107495216
+152.598690081424,-25.2262159905567
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

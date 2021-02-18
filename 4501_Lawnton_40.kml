@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4501_Lawnton</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4501_Lawnton 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.003180897558,-26.9608898291728
+153.002877550621,-26.9844102621689
+152.985586775232,-26.9998175360729
+152.968295999843,-26.9844102621689
+152.967992652907,-26.9608898291728
+152.985586775232,-26.9452068112313
+153.003180897558,-26.9608898291728
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

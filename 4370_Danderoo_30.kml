@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Danderoo</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Danderoo 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.170328964046,-28.0697721776973
+152.18151653096,-28.0599000922246
+152.192704097873,-28.0697721776973
+152.18151653096,-28.0796433561759
+152.170328964046,-28.0697721776973
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

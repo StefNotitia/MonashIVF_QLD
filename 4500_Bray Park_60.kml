@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4500_Bray Park</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4500_Bray Park 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.060966938081,-26.6953073311615
+153.078561060407,-26.711024979702
+153.060966938081,-26.7267404589232
+153.043372815756,-26.711024979702
+153.060966938081,-26.6953073311615
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

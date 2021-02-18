@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4739_Carmila</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4739_Carmila 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+149.371907714448,-21.8712913179625
+149.373581782057,-21.8728448827978
+149.371907714448,-21.8743984307225
+149.370233646838,-21.8728448827978
+149.371907714448,-21.8712913179625
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

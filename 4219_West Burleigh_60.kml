@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4219_West Burleigh</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4219_West Burleigh 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.064523431165,-27.5343348494848
+153.057925635293,-27.5401851834728
+153.051327839421,-27.5343348494848
+153.057925635293,-27.5284842040573
+153.064523431165,-27.5343348494848
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

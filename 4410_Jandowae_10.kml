@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4410_Jandowae</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4410_Jandowae 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.054309918576,-26.6463810373722
+151.054470840426,-26.6465248678609
+151.054309918576,-26.6466686981684
+151.054148996725,-26.6465248678609
+151.054309918576,-26.6463810373722
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

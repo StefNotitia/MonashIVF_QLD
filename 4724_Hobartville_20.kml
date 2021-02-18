@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4724_Hobartville</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4724_Hobartville 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.308424245407,-23.362638972371
+146.320985923505,-23.3741702598372
+146.320846657948,-23.3862823830612
+146.320677855588,-23.3983933991042
+146.320474883421,-23.4105033075265
+146.308424245407,-23.4215614966715
+146.306548094922,-23.4226121078885
+146.305355503141,-23.4347197997509
+146.295228653663,-23.4440109972554
+146.285101804185,-23.4347197997509
+146.283909212404,-23.4226121078885
+146.283357034335,-23.4105033075265
+146.295228653663,-23.3996084900814
+146.296170635227,-23.3983933991042
+146.296001832867,-23.3862823830612
+146.29586256731,-23.3741702598372
+146.308424245407,-23.362638972371
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

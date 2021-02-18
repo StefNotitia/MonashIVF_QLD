@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4874_Napranum</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4874_Napranum 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+141.853712122704,-12.6534474864624
+141.854311922328,-12.6540327179902
+141.853712122704,-12.6604701762047
+141.853112323079,-12.6540327179902
+141.853712122704,-12.6534474864624
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

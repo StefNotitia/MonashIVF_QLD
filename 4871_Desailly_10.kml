@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4871_Desailly</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4871_Desailly 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+144.784527551599,-16.4319173246444
+144.785470093866,-16.4328213681246
+144.786742610536,-16.4391495546751
+144.784527551599,-16.4412740522191
+144.782312492662,-16.4391495546751
+144.783585009332,-16.4328213681246
+144.784527551599,-16.4319173246444
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

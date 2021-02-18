@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4564_Marcoola</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4564_Marcoola 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.076300901689,-26.5205316396996
+153.075701102064,-26.5210683238015
+153.075101302439,-26.5205316396996
+153.075701102064,-26.519994953089
+153.076300901689,-26.5205316396996
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4125_Munruben</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4125_Munruben 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.03470210394,-27.6803483623289
+153.037701102064,-27.6842434248591
+153.039900367355,-27.6861909040294
+153.037701102064,-27.6920331331419
+153.031103306192,-27.6898693810317
+153.02450551032,-27.6883817765804
+153.022031336868,-27.6861909040294
+153.02450551032,-27.6839999875208
+153.027504508443,-27.6803483623289
+153.031103306192,-27.677161389665
+153.03470210394,-27.6803483623289
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

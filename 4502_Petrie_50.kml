@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4502_Petrie</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4502_Petrie 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.007058046366,-26.7801084820096
+153.016483469041,-26.7716936967019
+153.025908891715,-26.7801084820096
+153.016483469041,-26.7885226436326
+153.007058046366,-26.7801084820096
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

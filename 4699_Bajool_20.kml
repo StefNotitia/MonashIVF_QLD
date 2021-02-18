@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4699_Bajool</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4699_Bajool 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.537088013633,-23.4584194650099
+150.544033061919,-23.4664891954915
+150.5484315925,-23.4705238757254
+150.544033061919,-23.4745584325997
+150.530837470175,-23.4768638382785
+150.523925493547,-23.4705238757254
+150.524586926717,-23.4584194650099
+150.530837470175,-23.4526854093961
+150.537088013633,-23.4584194650099
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4884_Yungaburra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4884_Yungaburra 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.441698035627,-17.0566654429431
+145.425457307326,-17.0721911793517
+145.409216579026,-17.0566654429431
+145.425457307326,-17.0411384156395
+145.441698035627,-17.0566654429431
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

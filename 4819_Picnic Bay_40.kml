@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4819_Picnic Bay</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4819_Picnic Bay 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.871586775233,-19.107975230223
+146.896520687407,-19.1315336888004
+146.897225215324,-19.1564653696856
+146.871586775233,-19.1806823274737
+146.870793770921,-19.1813932824395
+146.845195591744,-19.2055685554352
+146.818804408256,-19.2055458343253
+146.793230289272,-19.1813932824395
+146.792413224767,-19.1803632780906
+146.767112586052,-19.1564653696856
+146.767384270274,-19.1315336888004
+146.792413224767,-19.1078854243922
+146.818804408256,-19.1076777783118
+146.819834419754,-19.1065982439357
+146.845195591744,-19.0826324524703
+146.870556763735,-19.1065982439357
+146.871586775233,-19.107975230223
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

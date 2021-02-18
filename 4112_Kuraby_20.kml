@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4112_Kuraby</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4112_Kuraby 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.105594122326,-27.4647425250531
+153.107793387616,-27.4627911111103
+153.109992652907,-27.4647425250531
+153.12098897936,-27.4716295922441
+153.126422458313,-27.4764502831952
+153.12098897936,-27.4812707632264
+153.107793387616,-27.4797951284764
+153.104023218547,-27.4764502831952
+153.105594122326,-27.4647425250531
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

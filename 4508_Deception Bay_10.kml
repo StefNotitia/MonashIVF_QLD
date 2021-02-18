@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4508_Deception Bay</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4508_Deception Bay 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.083276856656,-27.2259880270092
+153.082177224011,-27.2250102195233
+153.083276856656,-27.2240324034521
+153.084376489302,-27.2250102195233
+153.083276856656,-27.2259880270092
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

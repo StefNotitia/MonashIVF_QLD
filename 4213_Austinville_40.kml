@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4213_Austinville</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4213_Austinville 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.251512041279,-27.7628133044289
+153.264707633023,-27.7744892392898
+153.251512041279,-27.7861639211429
+153.238316449535,-27.7744892392898
+153.251512041279,-27.7628133044289
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

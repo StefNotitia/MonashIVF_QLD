@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4802_Airlie Beach</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4802_Airlie Beach 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.907175220842,-20.3174117323069
+148.93951653096,-20.2870796156664
+148.971857841077,-20.3174117323069
+148.972505510319,-20.3181270645392
+149.004731697505,-20.3483451578442
+148.972505510319,-20.3785573416709
+148.93951653096,-20.3784724644179
+148.907380887949,-20.3483451578442
+148.907175220842,-20.3174117323069
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4227_Reedy Creek</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4227_Reedy Creek 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.317630857791,-27.9214290056088
+153.324228653663,-27.9155990982956
+153.330826449535,-27.9214290056088
+153.324228653663,-27.9272585985719
+153.317630857791,-27.9214290056088
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

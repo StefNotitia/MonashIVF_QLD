@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4362_Berat</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4362_Berat 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.993324612762,-28.0083209266616
+151.991125347471,-28.0102625951892
+151.988926082181,-28.0083209266616
+151.991125347471,-28.0063792231345
+151.993324612762,-28.0083209266616
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

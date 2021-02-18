@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4895_Cooktown</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4895_Cooktown 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.216287877297,-15.5229059783491
+145.220649132195,-15.5271081072959
+145.216287877297,-15.5313101506193
+145.215091902214,-15.5334650114109
+145.209690081424,-15.5386694606748
+145.203092285552,-15.539027141706
+145.19649448968,-15.539158189193
+145.189896693808,-15.5392423033569
+145.183900297738,-15.5334650114109
+145.189896693808,-15.527687557541
+145.19649448968,-15.5277716763856
+145.203092285552,-15.5279027310283
+145.204591784614,-15.5271081072959
+145.209690081424,-15.522195819896
+145.216287877297,-15.5229059783491
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

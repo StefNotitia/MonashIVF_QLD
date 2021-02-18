@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4860_Ngatjan</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4860_Ngatjan 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.922285864857,-17.3011190285585
+145.932812262829,-17.3263144161965
+145.916195591744,-17.3515063478514
+145.899578920659,-17.3263144161965
+145.910105318632,-17.3011190285585
+145.916195591744,-17.2953042180083
+145.922285864857,-17.3011190285585
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

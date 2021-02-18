@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4551_Bells Creek</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4551_Bells Creek 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.964729154601,-26.5692580135273
+152.962929755727,-26.5708673744151
+152.961130356853,-26.5692580135273
+152.962929755727,-26.5676486300325
+152.964729154601,-26.5692580135273
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

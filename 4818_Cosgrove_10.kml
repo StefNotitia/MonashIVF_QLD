@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4818_Cosgrove</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4818_Cosgrove 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.697505510319,-19.3209655349344
+146.694049522006,-19.3177041555225
+146.697505510319,-19.3144427110335
+146.700961498634,-19.3177041555225
+146.697505510319,-19.3209655349344
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

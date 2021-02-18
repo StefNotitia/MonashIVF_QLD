@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4362_Ellinthorp</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4362_Ellinthorp 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.976380162849,-27.9120463392233
+151.989575754592,-27.9139897404286
+151.976380162849,-27.9159331067122
+151.974180897558,-27.9139897404286
+151.976380162849,-27.9120463392233
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

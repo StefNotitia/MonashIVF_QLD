@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4505_Burpengary</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4505_Burpengary 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.026483469041,-26.8322363210609
+153.046276856657,-26.8453690447266
+153.038197922936,-26.8630278918465
+153.026483469041,-26.8734777479713
+153.006690081424,-26.8767606451801
+152.99129522439,-26.8630278918465
+152.986896693808,-26.8512556332802
+152.980298897936,-26.8453690447266
+152.986896693808,-26.8394821500541
+152.99349448968,-26.8453690447266
+153.006690081424,-26.8492934711117
+153.011765309018,-26.8453690447266
+153.026483469041,-26.8322363210609
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

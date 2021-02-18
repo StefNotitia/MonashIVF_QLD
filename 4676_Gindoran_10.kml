@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4676_Gindoran</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4676_Gindoran 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.651690081424,-24.6378011074198
+151.655204795113,-24.6409958051817
+151.656402792761,-24.6469926487453
+151.651690081424,-24.6512759321266
+151.649505380805,-24.6529892043358
+151.645092285553,-24.6569999847391
+151.63849448968,-24.6548501457851
+151.631896693808,-24.6583001987586
+151.62605293175,-24.6529892043358
+151.625914938633,-24.6469926487453
+151.631896693808,-24.6415557467402
+151.63849448968,-24.641764647371
+151.645092285553,-24.6420812280734
+151.648175367736,-24.6409958051817
+151.651690081424,-24.6378011074198
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

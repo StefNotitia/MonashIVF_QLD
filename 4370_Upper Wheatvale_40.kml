@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Upper Wheatvale</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Upper Wheatvale 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.967369142209,-27.8642955913541
+151.977265836017,-27.8730444801312
+151.967369142209,-27.8817926624322
+151.957472448401,-27.8730444801312
+151.967369142209,-27.8642955913541
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

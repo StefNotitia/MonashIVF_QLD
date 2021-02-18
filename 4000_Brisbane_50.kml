@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4000_Brisbane</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4000_Brisbane 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.988142889604,-26.9839896500616
+152.972516530959,-26.9979139576621
+152.956890172315,-26.9839896500616
+152.972516530959,-26.9700636192275
+152.988142889604,-26.9839896500616
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

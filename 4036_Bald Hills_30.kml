@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4036_Bald Hills</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4036_Bald Hills 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.999103306192,-27.0360375697753
+153.004758559796,-27.0410747087841
+152.999103306192,-27.0461116217656
+152.993448052587,-27.0410747087841
+152.999103306192,-27.0360375697753
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

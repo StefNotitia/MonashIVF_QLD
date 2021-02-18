@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4817_Rangewood</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4817_Rangewood 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.661896693808,-19.2570651259853
+146.664095959099,-19.2632936460649
+146.665195591744,-19.2695219295264
+146.661896693808,-19.2726359825052
+146.658597795872,-19.2695219295264
+146.659697428517,-19.2632936460649
+146.661896693808,-19.2570651259853
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

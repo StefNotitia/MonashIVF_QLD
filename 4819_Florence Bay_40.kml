@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4819_Florence Bay</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4819_Florence Bay 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.886195591744,-19.0813602401623
+146.911774254678,-19.1055317269099
+146.911759177144,-19.1304673326589
+146.886195591744,-19.1546173970463
+146.883922449324,-19.1553991746061
+146.859804408256,-19.1781802760691
+146.855091696919,-19.1803272485996
+146.833413224768,-19.2008010591333
+146.811734752617,-19.1803272485996
+146.810090783545,-19.1553991746061
+146.810320939215,-19.1304673326589
+146.810792210349,-19.1055317269099
+146.833413224768,-19.0841553580244
+146.859804408256,-19.08270601276
+146.886195591744,-19.0813602401623
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

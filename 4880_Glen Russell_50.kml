@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4880_Glen Russell</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4880_Glen Russell 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.365832295021,-16.7853708241482
+145.353461427761,-16.7972142398102
+145.341090560501,-16.7853708241482
+145.353461427761,-16.7735266699934
+145.365832295021,-16.7853708241482
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

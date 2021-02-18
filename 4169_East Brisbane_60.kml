@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4169_East Brisbane</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4169_East Brisbane 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.021206612384,-26.8595618876707
+153.030342022053,-26.8677114449554
+153.021206612384,-26.8758604150255
+153.012071202715,-26.8677114449554
+153.021206612384,-26.8595618876707
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

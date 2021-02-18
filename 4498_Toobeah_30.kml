@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4498_Toobeah</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4498_Toobeah 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+149.683708903293,-28.2156121993103
+149.676549592879,-28.2219206158514
+149.669390282464,-28.2156121993103
+149.676549592879,-28.2093034100764
+149.683708903293,-28.2156121993103
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

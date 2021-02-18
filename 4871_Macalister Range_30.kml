@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4871_Macalister Range</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4871_Macalister Range 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.43954029729,-16.5188504953558
+145.446962817646,-16.5117341992731
+145.454385338003,-16.5188504953558
+145.446962817646,-16.5259665293194
+145.43954029729,-16.5188504953558
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

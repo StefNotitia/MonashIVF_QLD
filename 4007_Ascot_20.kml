@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4007_Ascot</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4007_Ascot 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.033898276841,-27.3012364505129
+153.042206612383,-27.2938533571067
+153.050514947926,-27.3012364505129
+153.042206612383,-27.3086190528818
+153.035261564097,-27.3129615307442
+153.02901102064,-27.3185150836911
+153.022760477182,-27.3129615307442
+153.02901102064,-27.3074076997951
+153.033898276841,-27.3012364505129
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

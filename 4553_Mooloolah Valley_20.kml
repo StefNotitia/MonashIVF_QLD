@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4553_Mooloolah Valley</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4553_Mooloolah Valley 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.98501102064,-26.6330664924285
+152.98878118971,-26.6364365805573
+152.98501102064,-26.6398065692672
+152.98124085157,-26.6364365805573
+152.98501102064,-26.6330664924285
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

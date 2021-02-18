@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4816_Clemant</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4816_Clemant 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.284250694943,-18.9439178991187
+146.289199041847,-18.9485981620743
+146.284250694943,-18.9532782937765
+146.279302348039,-18.9485981620743
+146.284250694943,-18.9439178991187
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

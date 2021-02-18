@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4357_Millmerran</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4357_Millmerran 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.212863631889,-27.8903349774133
+151.21357053859,-27.8909597712457
+151.212863631889,-27.891584561472
+151.212156725188,-27.8909597712457
+151.212863631889,-27.8903349774133
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

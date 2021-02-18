@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4563_Cooroy</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4563_Cooroy 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.010166203372,-26.5736150420397
+153.007966938081,-26.5755819607988
+153.00576767279,-26.5736150420397
+153.007966938081,-26.5716480895061
+153.010166203372,-26.5736150420397
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

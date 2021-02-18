@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Mount Colliery</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Mount Colliery 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.375577686623,-28.2480940190175
+152.38149448968,-28.2428817414773
+152.387411292738,-28.2480940190175
+152.387462424371,-28.2539059017868
+152.388092285553,-28.2547102896692
+152.393776891684,-28.259717467752
+152.393705335772,-28.2655287168704
+152.388092285553,-28.2704723659023
+152.38149448968,-28.2702973527419
+152.374896693808,-28.2697255330474
+152.368298897936,-28.2689351638549
+152.364431224494,-28.2655287168704
+152.368298897936,-28.2621221609905
+152.374896693808,-28.2613317354025
+152.37565506115,-28.259717467752
+152.375526554989,-28.2539059017868
+152.375577686623,-28.2480940190175
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

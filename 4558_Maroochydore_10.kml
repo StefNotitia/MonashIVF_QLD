@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4558_Maroochydore</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4558_Maroochydore 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.084896693808,-26.6029014120803
+153.087095959099,-26.6048678276884
+153.084896693808,-26.6068342094943
+153.082697428517,-26.6048678276884
+153.078298897936,-26.6031327568474
+153.073641630262,-26.5989684794645
+153.078298897936,-26.5948040505216
+153.08295616561,-26.5989684794645
+153.084896693808,-26.6029014120803
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

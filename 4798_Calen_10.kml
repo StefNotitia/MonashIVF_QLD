@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4798_Calen</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4798_Calen 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.728103306192,-20.8673965949599
+148.729202938837,-20.8684240962409
+148.728103306192,-20.8694515904971
+148.727003673547,-20.8684240962409
+148.728103306192,-20.8673965949599
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

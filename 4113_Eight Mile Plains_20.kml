@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4113_Eight Mile Plains</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4113_Eight Mile Plains 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.090595792119,-27.4447158965712
+153.097793387616,-27.4383281626702
+153.104990983113,-27.4447158965712
+153.097793387616,-27.4511032606452
+153.090595792119,-27.4447158965712
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

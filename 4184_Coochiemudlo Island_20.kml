@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4184_Coochiemudlo Island</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4184_Coochiemudlo Island 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.351365935953,-27.5685814902403
+153.338887795872,-27.5796422735656
+153.338196927194,-27.5802781980162
+153.325692204128,-27.5913613618034
+153.313187481061,-27.5802781980162
+153.313210852803,-27.5685814902403
+153.325692204128,-27.557516745092
+153.338887795872,-27.5575195920103
+153.351365935953,-27.5685814902403
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

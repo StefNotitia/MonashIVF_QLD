@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4885_Malanda</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4885_Malanda 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.442560613518,-17.1004421951807
+145.459055103199,-17.1162068083112
+145.442560613518,-17.1477320265931
+145.426066123838,-17.1162068083112
+145.442560613518,-17.1004421951807
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

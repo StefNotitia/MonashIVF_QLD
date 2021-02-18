@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4157_Capalaba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4157_Capalaba 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.177309918576,-27.5060395137327
+153.1779097182,-27.5065715120147
+153.177309918576,-27.5071035077247
+153.176710118951,-27.5065715120147
+153.177309918576,-27.5060395137327
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

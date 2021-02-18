@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4151_Coorparoo</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4151_Coorparoo 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.976527551599,-27.0280177287427
+152.997298390456,-27.0465185440343
+152.976527551599,-27.0650163098545
+152.955756712743,-27.0465185440343
+152.976527551599,-27.0280177287427
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

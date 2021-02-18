@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4507_Banksia Beach</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4507_Banksia Beach 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.10843668489,-26.7095510782562
+153.081619837152,-26.7335039535539
+153.042033061919,-26.7449083124897
+153.01344261314,-26.7095510782562
+153.042033061919,-26.6840084676925
+153.081619837152,-26.6855931634625
+153.10843668489,-26.7095510782562
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4470_Gowrie Station</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4470_Gowrie Station 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.636580909316,-25.6059155782024
+146.613439386482,-25.6267825019921
+146.590297863647,-25.6059155782024
+146.613439386482,-25.5850450116645
+146.636580909316,-25.6059155782024
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

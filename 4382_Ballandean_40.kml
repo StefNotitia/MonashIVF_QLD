@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4382_Ballandean</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4382_Ballandean 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.945652757325,-28.5092680374031
+151.959670052585,-28.4860745021798
+151.965760325697,-28.4807214241244
+151.97185059881,-28.4860745021798
+151.985867894069,-28.5092680374031
+151.965760325697,-28.5269358803138
+151.945652757325,-28.5092680374031
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

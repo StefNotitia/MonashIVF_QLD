@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4173_Tingalpa</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4173_Tingalpa 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.972549592878,-26.9710257703285
+152.996113149564,-26.99202450122
+152.972549592878,-27.0130193128991
+152.948986036192,-26.99202450122
+152.972549592878,-26.9710257703285
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

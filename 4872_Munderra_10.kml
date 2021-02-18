@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4872_Munderra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4872_Munderra 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+144.964472448401,-17.6193486901112
+144.96934533032,-17.6239929180632
+144.971070244273,-17.6287686433051
+144.972657055939,-17.63028092993
+144.971070244273,-17.6317932038697
+144.964472448401,-17.6346633539709
+144.957874652529,-17.6353595486515
+144.951276856656,-17.6356555712135
+144.944679060785,-17.6359350070279
+144.938081264913,-17.635996969167
+144.932083420696,-17.63028092993
+144.938081264913,-17.6245647094606
+144.944679060785,-17.6246266755075
+144.951276856656,-17.6249061284165
+144.957874652529,-17.6252021681429
+144.959599566482,-17.6239929180632
+144.964472448401,-17.6193486901112
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

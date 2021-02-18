@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4059_Kelvin Grove</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4059_Kelvin Grove 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.012492950756,-26.8355343392039
+153.028793387616,-26.8209884274287
+153.045093824477,-26.8355343392039
+153.028793387616,-26.850078382961
+153.012492950756,-26.8355343392039
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

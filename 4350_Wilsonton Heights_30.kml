@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4350_Wilsonton Heights</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4350_Wilsonton Heights 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.069065443374,-27.3661327105934
+152.055657019505,-27.3780399203545
+152.042248595636,-27.3661327105934
+152.055657019505,-27.3542242198613
+152.069065443374,-27.3661327105934
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

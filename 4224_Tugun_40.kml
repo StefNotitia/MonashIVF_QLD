@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4224_Tugun</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4224_Tugun 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.291066123838,-27.8216730551351
+153.280199165931,-27.8120618433876
+153.291066123838,-27.8024497810856
+153.301933081745,-27.8120618433876
+153.291066123838,-27.8216730551351
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

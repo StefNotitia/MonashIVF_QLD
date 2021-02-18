@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4383_Wallangarra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4383_Wallangarra 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.849033061919,-28.8128494127868
+151.855283605377,-28.8183259863436
+151.862228653663,-28.8244107303113
+151.868479197121,-28.8298866958582
+151.862228653663,-28.8353623733463
+151.849033061919,-28.8356665692043
+151.842435266047,-28.8298866958582
+151.842782518461,-28.8183259863436
+151.849033061919,-28.8128494127868
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4550_Landsborough</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4550_Landsborough 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.010184571104,-26.6931311578356
+153.014583101685,-26.6970608483491
+153.010184571104,-26.7009904033293
+153.005786040523,-26.6970608483491
+153.010184571104,-26.6931311578356
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

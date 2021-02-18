@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4479_Cooladdi</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4479_Cooladdi 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.412061415455,-26.6385188667771
+145.41449448968,-26.636344035342
+145.421092285552,-26.6379572025646
+145.421720647064,-26.6385188667771
+145.421092285552,-26.6390805282278
+145.41449448968,-26.6406936568044
+145.412061415455,-26.6385188667771
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

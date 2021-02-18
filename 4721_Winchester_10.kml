@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4721_Winchester</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4721_Winchester 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.058103306192,-22.1506516581734
+148.059099199909,-22.1515740476011
+148.058103306192,-22.1524964309836
+148.057107412475,-22.1515740476011
+148.058103306192,-22.1506516581734
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

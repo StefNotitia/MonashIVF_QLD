@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4116_Calamvale</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4116_Calamvale 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.123575754593,-27.494658797414
+153.129009233546,-27.4994784804592
+153.13320497019,-27.5111825463378
+153.123575754593,-27.5197225654126
+153.113946538995,-27.5111825463378
+153.118142275639,-27.4994784804592
+153.123575754593,-27.494658797414
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

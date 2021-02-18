@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4018_Fitzgibbon</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4018_Fitzgibbon 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.992413224767,-26.9242949615663
+153.007808081802,-26.9380202672802
+152.992413224767,-26.9517439023955
+152.977018367733,-26.9380202672802
+152.992413224767,-26.9242949615663
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

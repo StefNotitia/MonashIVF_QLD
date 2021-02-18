@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4311_Lowood</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4311_Lowood 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.41110931745,-27.2167621810245
+152.409309918576,-27.2183623436574
+152.407510519702,-27.2167621810245
+152.409309918576,-27.2151619954073
+152.41110931745,-27.2167621810245
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

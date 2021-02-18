@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4117_Berrinba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4117_Berrinba 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.115988979361,-27.5412094149815
+153.120937326264,-27.5455969201605
+153.115988979361,-27.5499842501067
+153.111040632456,-27.5455969201605
+153.115988979361,-27.5412094149815
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

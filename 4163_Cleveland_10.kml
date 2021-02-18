@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4163_Cleveland</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4163_Cleveland 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.290977370087,-27.6373352208107
+153.289092285552,-27.6390052072782
+153.287207201017,-27.6373352208107
+153.289092285552,-27.6356652088559
+153.290977370087,-27.6373352208107
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

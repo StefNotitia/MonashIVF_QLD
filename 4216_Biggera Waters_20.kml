@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4216_Biggera Waters</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4216_Biggera Waters 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.288197470175,-27.8195310697932
+153.292596000756,-27.8234211570599
+153.288197470175,-27.8273111049407
+153.283798939593,-27.8234211570599
+153.288197470175,-27.8195310697932
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4172_Murarrie</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4172_Murarrie 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.987538572239,-26.9334370060331
+153.001122269622,-26.945546674865
+152.987538572239,-26.9576550428085
+152.973954874855,-26.945546674865
+152.987538572239,-26.9334370060331
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

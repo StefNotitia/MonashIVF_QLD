@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4895_Hope Vale</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4895_Hope Vale 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.138136368111,-15.0735220694319
+145.156365061054,-15.0911228377578
+145.157929755727,-15.0919191184605
+145.177723143343,-15.0917395153587
+145.196877825413,-15.1102327506734
+145.177723143343,-15.1287243744193
+145.157929755727,-15.1285448024667
+145.138136368111,-15.1284245220193
+145.119292303642,-15.1102327506734
+145.118342980495,-15.1071255648648
+145.101768029889,-15.0911228377578
+145.118342980495,-15.0751189053213
+145.138136368111,-15.0735220694319
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

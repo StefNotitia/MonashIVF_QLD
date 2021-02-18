@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4625_Gayndah</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4625_Gayndah 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.653896693808,-25.5688624527294
+151.659565222656,-25.5739757375645
+151.653896693808,-25.5790888040278
+151.647298897936,-25.5793134732253
+151.640701102064,-25.5793258675511
+151.634103306192,-25.5791308536717
+151.62750551032,-25.5785100525867
+151.620907714447,-25.5762074922023
+151.618433540995,-25.5739757375645
+151.620907714447,-25.5717439413245
+151.62750551032,-25.5694412508088
+151.634103306192,-25.5688203994789
+151.640701102064,-25.5686253684869
+151.647298897936,-25.5686377639192
+151.653896693808,-25.5688624527294
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

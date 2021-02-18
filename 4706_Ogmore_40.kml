@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4706_Ogmore</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4706_Ogmore 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+149.510997645466,-22.4956857250816
+149.503457307326,-22.5026521310053
+149.495916969187,-22.4956857250816
+149.503457307326,-22.4887189683667
+149.510997645466,-22.4956857250816
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

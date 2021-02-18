@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Mount Tabor</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Mount Tabor 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.912549592879,-27.7169797194425
+151.929829534448,-27.7322758154476
+151.912549592879,-27.7475697649036
+151.895269651309,-27.7322758154476
+151.912549592879,-27.7169797194425
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

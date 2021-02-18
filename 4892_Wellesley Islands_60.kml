@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4892_Wellesley Islands</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4892_Wellesley Islands 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+138.939752084828,-16.878888153887
+138.978688649236,-16.9161436775552
+138.939752084828,-16.9533918351922
+138.938630137905,-16.9540137883031
+138.900165309596,-16.9908032971945
+138.898210407115,-16.9918762699415
+138.897131840229,-17.0297311074763
+138.860578534362,-17.064678390303
+138.82099175913,-17.0625592073135
+138.78665521934,-17.0297311074763
+138.82099175913,-16.9968972454238
+138.822946661611,-16.9918762699415
+138.822347470611,-16.9540137883031
+138.860578534362,-16.9174407251551
+138.861325844118,-16.9161436775552
+138.900165309596,-16.8789810698354
+138.939752084828,-16.878888153887
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

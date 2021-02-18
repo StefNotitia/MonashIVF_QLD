@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4722_Cairdbeign</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4722_Cairdbeign 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.094815428896,-24.1019616379146
+148.092176310547,-24.0995525747283
+148.094815428896,-24.0971434662321
+148.097454547245,-24.0995525747283
+148.094815428896,-24.1019616379146
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

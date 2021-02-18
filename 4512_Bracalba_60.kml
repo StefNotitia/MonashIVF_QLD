@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4512_Bracalba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4512_Bracalba 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.979553713313,-26.5987821886583
+152.986151509186,-26.6046815464878
+152.979553713313,-26.640071303246
+152.972955917441,-26.6046815464878
+152.979553713313,-26.5987821886583
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

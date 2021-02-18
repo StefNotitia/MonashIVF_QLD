@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Upper Freestone</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Upper Freestone 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.224896693808,-28.0561228491073
+152.233693754971,-28.0638858636085
+152.224896693808,-28.0716483173866
+152.216099632645,-28.0638858636085
+152.224896693808,-28.0561228491073
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

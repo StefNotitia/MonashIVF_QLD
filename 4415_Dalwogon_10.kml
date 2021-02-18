@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4415_Dalwogon</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4415_Dalwogon 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.116690081424,-26.5659925398288
+150.123287877296,-26.5664181063138
+150.127348059371,-26.5700495426939
+150.123287877296,-26.5736808639714
+150.121753506163,-26.5759503813145
+150.116690081424,-26.5804787257191
+150.110092285552,-26.5807480353781
+150.10349448968,-26.5810618576014
+150.096896693808,-26.5812341495505
+150.090298897936,-26.5813113630303
+150.084304427617,-26.5759503813145
+150.090298897936,-26.5705891486628
+150.096896693808,-26.5706663693191
+150.10349448968,-26.5708386769062
+150.110092285552,-26.5711525262815
+150.112154096762,-26.5700495426939
+150.116690081424,-26.5659925398288
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

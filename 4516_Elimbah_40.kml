@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4516_Elimbah</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4516_Elimbah 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.022977958721,-26.6975527635814
+153.038812668814,-26.7116984660243
+153.022977958721,-26.7258424112879
+153.007143248628,-26.7116984660243
+153.022977958721,-26.6975527635814
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4820_Towers Hill</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4820_Towers Hill 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.241103306192,-20.0355512062597
+146.242988390727,-20.0373221959142
+146.241103306192,-20.0390931656046
+146.239218221657,-20.0373221959142
+146.241103306192,-20.0355512062597
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

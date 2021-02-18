@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4303_Dinmore</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4303_Dinmore 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.617251634158,-27.2767107157535
+152.632877992802,-27.2905986113192
+152.650240613518,-27.3007074814316
+152.671854082754,-27.319911798485
+152.650240613518,-27.3391127909614
+152.628627144282,-27.319911798485
+152.617251634158,-27.3044847703346
+152.601625275514,-27.2905986113192
+152.617251634158,-27.2767107157535
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

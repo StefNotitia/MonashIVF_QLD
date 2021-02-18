@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4228_Tallebudgera</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4228_Tallebudgera 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.31102204128,-27.8887030441879
+153.313421239779,-27.8908235739052
+153.31102204128,-27.8929440620858
+153.308622842781,-27.8908235739052
+153.31102204128,-27.8887030441879
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

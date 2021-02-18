@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4011_Clayfield</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4011_Clayfield 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.079793387617,-27.5516701299495
+153.081992652907,-27.5536199681855
+153.079793387617,-27.5555697718009
+153.077594122326,-27.5536199681855
+153.079793387617,-27.5516701299495
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4573_Yaroomba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4573_Yaroomba 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.064701102064,-26.4766508260809
+153.066900367355,-26.4786194070541
+153.064701102064,-26.4805879543368
+153.058103306191,-26.4796036849068
+153.057003673546,-26.4786194070541
+153.058103306191,-26.4776351207787
+153.064701102064,-26.4766508260809
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

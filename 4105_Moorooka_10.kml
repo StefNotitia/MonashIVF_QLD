@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4105_Moorooka</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4105_Moorooka 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.03549448968,-27.4767337000983
+153.037379574215,-27.4784061311309
+153.03549448968,-27.4800785367746
+153.033609405145,-27.4784061311309
+153.03549448968,-27.4767337000983
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4160_Ormiston</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4160_Ormiston 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.094549592878,-27.3683922219306
+153.101147388751,-27.3742513656348
+153.094549592878,-27.3801101991199
+153.087951797006,-27.3742513656348
+153.094549592878,-27.3683922219306
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4010_Albion</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4010_Albion 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.99451653096,-26.9145241834489
+153.000014694186,-26.9194266946069
+152.99451653096,-26.9243289927792
+152.989018367733,-26.9194266946069
+152.99451653096,-26.9145241834489
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

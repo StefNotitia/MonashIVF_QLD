@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4871_Southedge</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4871_Southedge 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.346575754592,-16.7520475666813
+145.353173550465,-16.7646827320353
+145.350974285174,-16.7773170580633
+145.346575754592,-16.7815283134592
+145.342177224011,-16.7773170580633
+145.333380162849,-16.7751757059696
+145.320184571105,-16.776344281277
+145.319553489139,-16.7773170580633
+145.30698897936,-16.7893463641924
+145.294424469581,-16.7773170580633
+145.294639258882,-16.7646827320353
+145.30698897936,-16.7528575383446
+145.320184571105,-16.753020467743
+145.333380162849,-16.7541891791806
+145.346575754592,-16.7520475666813
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4722_Cona Creek</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4722_Cona Creek 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.090428365842,-24.0628401422922
+148.099853788517,-24.0714461958858
+148.102799233102,-24.1015628352251
+148.102799233102,-24.1316723944556
+148.090428365842,-24.1429616524692
+148.078057498582,-24.1316723944556
+148.078057498582,-24.1015628352251
+148.081002943168,-24.0714461958858
+148.090428365842,-24.0628401422922
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

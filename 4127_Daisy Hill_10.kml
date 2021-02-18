@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4127_Daisy Hill</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4127_Daisy Hill 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.105712122704,-27.5900234492606
+153.106811755349,-27.5909980320087
+153.105712122704,-27.5919726060939
+153.104612490058,-27.5909980320087
+153.105712122704,-27.5900234492606
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

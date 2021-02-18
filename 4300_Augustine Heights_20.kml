@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4300_Augustine Heights</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4300_Augustine Heights 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.952920162848,-27.5123311804113
+152.951720563599,-27.5112672369743
+152.952920162848,-27.5102032832476
+152.954119762098,-27.5112672369743
+152.952920162848,-27.5123311804113
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

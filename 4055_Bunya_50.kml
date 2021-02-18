@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4055_Bunya</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4055_Bunya 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.98708346904,-26.9270881461465
+153.006327040334,-26.9442440923705
+152.98708346904,-26.9613974278703
+152.967839897747,-26.9442440923705
+152.98708346904,-26.9270881461465
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

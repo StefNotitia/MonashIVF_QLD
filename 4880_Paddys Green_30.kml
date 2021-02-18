@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4880_Paddys Green</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4880_Paddys Green 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.418070244272,-16.914197106019
+145.427966938081,-16.9236654459668
+145.418070244272,-16.933133309847
+145.408173550464,-16.9236654459668
+145.418070244272,-16.914197106019
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

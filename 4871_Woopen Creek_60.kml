@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4871_Woopen Creek</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4871_Woopen Creek 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.818619837151,-17.0788162211205
+145.852208616137,-17.1109210253514
+145.858206612384,-17.1140870690367
+145.897793387616,-17.1281177505137
+145.919386174107,-17.148751721145
+145.897793387616,-17.1693833990565
+145.858206612384,-17.1834099029261
+145.818619837151,-17.1810129903591
+145.784854646512,-17.148751721145
+145.779033061919,-17.1428411825177
+145.739446286687,-17.1307380642612
+145.718710356803,-17.1109210253514
+145.739446286687,-17.0911018761687
+145.779033061919,-17.0789953927405
+145.818619837151,-17.0788162211205
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

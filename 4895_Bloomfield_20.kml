@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4895_Bloomfield</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4895_Bloomfield 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.298927946431,-16.0426592482402
+145.30501102064,-16.0438270870831
+145.318206612384,-16.0432631380549
+145.330773842617,-16.0553405499041
+145.330230682666,-16.0680210438597
+145.326760538691,-16.0807007295375
+145.318206612384,-16.0889197921993
+145.309652686077,-16.0807007295375
+145.306182542102,-16.0680210438597
+145.30501102064,-16.0668533469288
+145.293030594313,-16.0553405499041
+145.291815428895,-16.0494946600899
+145.28470291136,-16.0426592482402
+145.291815428895,-16.0358236018935
+145.298927946431,-16.0426592482402
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

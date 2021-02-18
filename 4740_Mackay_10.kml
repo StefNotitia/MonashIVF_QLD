@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4740_Mackay</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4740_Mackay 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+149.050103306192,-21.2717012371287
+149.051988390727,-21.2734578813619
+149.050103306192,-21.275214504626
+149.048218221657,-21.2734578813619
+149.050103306192,-21.2717012371287
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4115_Algester</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4115_Algester 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.025298897936,-27.5956381960248
+153.030397194746,-27.6001564115849
+153.031896693808,-27.6018269651303
+153.036609405145,-27.6060032375805
+153.031896693808,-27.610179350856
+153.030759142796,-27.6118497515936
+153.025298897936,-27.6166880099831
+153.019838653076,-27.6118497515936
+153.019994787529,-27.6060032375805
+153.020200601126,-27.6001564115849
+153.025298897936,-27.5956381960248
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

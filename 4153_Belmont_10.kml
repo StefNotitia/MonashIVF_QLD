@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4153_Belmont</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4153_Belmont 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.107907714447,-27.5620685505321
+153.111866391971,-27.5655779020415
+153.111206612384,-27.5714265718781
+153.108507514072,-27.5772749299939
+153.107907714447,-27.5778065834547
+153.107307914823,-27.5772749299939
+153.104608816511,-27.5714265718781
+153.103949036924,-27.5655779020415
+153.107907714447,-27.5620685505321
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

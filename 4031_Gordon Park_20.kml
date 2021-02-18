@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4031_Gordon Park</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4031_Gordon Park 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.013405877674,-27.262474398537
+153.024402204128,-27.2663842602986
+153.033199265291,-27.2742035712867
+153.024402204128,-27.2820223321386
+153.011206612383,-27.2812404808126
+153.003289257337,-27.2742035712867
+152.99801102064,-27.2635407381083
+152.996811421391,-27.262474398537
+152.99801102064,-27.2614080487389
+153.011206612383,-27.2605194160952
+153.013405877674,-27.262474398537
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

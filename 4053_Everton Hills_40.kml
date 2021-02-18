@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4053_Everton Hills</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4053_Everton Hills 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.973804408256,-26.997917980505
+152.990421079341,-27.0127228422174
+152.979894681369,-27.0362324378741
+152.973804408256,-27.0416570303365
+152.967714135143,-27.0362324378741
+152.957187737171,-27.0127228422174
+152.973804408256,-26.997917980505
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

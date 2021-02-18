@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4129_Loganholme</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4129_Loganholme 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.128279616739,-27.6147893326719
+153.124320939216,-27.6182969971678
+153.120362261692,-27.6147893326719
+153.124320939216,-27.6089429755442
+153.128279616739,-27.6147893326719
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

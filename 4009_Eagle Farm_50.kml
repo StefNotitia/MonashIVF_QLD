@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4009_Eagle Farm</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4009_Eagle Farm 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.989538572239,-26.9330323200871
+153.009839482614,-26.9511298709754
+153.005164930883,-26.9805321926046
+152.989538572239,-26.9944569281143
+152.973912213594,-26.9805321926046
+152.969237661863,-26.9511298709754
+152.989538572239,-26.9330323200871
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

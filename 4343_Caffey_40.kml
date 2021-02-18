@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4343_Caffey</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4343_Caffey 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.346671412613,-27.4502964792083
+152.334170325697,-27.4613895240797
+152.321669238782,-27.4502964792083
+152.334170325697,-27.4392023185563
+152.346671412613,-27.4502964792083
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

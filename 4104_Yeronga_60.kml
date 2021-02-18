@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4104_Yeronga</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4104_Yeronga 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.992206612384,-26.9140092308411
+153.015958677523,-26.9351866481904
+152.992206612384,-26.9563600891203
+152.968454547245,-26.9351866481904
+152.992206612384,-26.9140092308411
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

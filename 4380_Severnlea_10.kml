@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4380_Severnlea</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4380_Severnlea 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.860803819622,-28.7705294421282
+151.858918735087,-28.7721818081095
+151.852320939215,-28.7710551977788
+151.851721139591,-28.7705294421282
+151.852320939215,-28.7700036838287
+151.858918735087,-28.768877049981
+151.860803819622,-28.7705294421282
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

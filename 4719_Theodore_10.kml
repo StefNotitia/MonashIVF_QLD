@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4719_Theodore</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4719_Theodore 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.19750551032,-24.9916741040374
+150.203392910943,-24.9970101467375
+150.204103306192,-24.9975537618325
+150.210101302439,-25.0029897805115
+150.204103306192,-25.0084255586702
+150.19750551032,-25.0083985878457
+150.191537275123,-25.0029897805115
+150.190907714448,-25.0022498782687
+150.184309918575,-25.0019968725433
+150.177712122704,-25.0016351964137
+150.171114326832,-25.000913551764
+150.166807432304,-24.9970101467375
+150.171114326832,-24.9931066177195
+150.177712122704,-24.9923849229849
+150.184309918575,-24.9920232185648
+150.190907714448,-24.9917701917836
+150.19750551032,-24.9916741040374
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

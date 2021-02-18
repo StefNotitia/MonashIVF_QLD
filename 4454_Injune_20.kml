@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4454_Injune</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4454_Injune 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.543815428896,-25.6129380299828
+148.554371902291,-25.6224567916985
+148.557011020639,-25.6232859162222
+148.570206612384,-25.6230351277278
+148.583402204128,-25.6230962444328
+148.595888601448,-25.6343541773538
+148.583402204128,-25.6456110489073
+148.570206612384,-25.6456721540577
+148.557011020639,-25.6454214125785
+148.543815428896,-25.6448908719097
+148.532127904779,-25.6343541773538
+148.530619837151,-25.6310586213387
+148.521079533979,-25.6224567916985
+148.530619837151,-25.6138543426586
+148.543815428896,-25.6129380299828
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

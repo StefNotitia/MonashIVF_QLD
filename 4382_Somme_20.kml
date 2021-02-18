@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4382_Somme</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4382_Somme 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.884771346337,-28.7268383464526
+151.887816482893,-28.7295086569123
+151.884771346337,-28.7321788991551
+151.88172620978,-28.7295086569123
+151.884771346337,-28.7268383464526
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4715_Biloela</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4715_Biloela 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.257767225902,-23.9877583303397
+150.277560613519,-23.9696731816704
+150.297354001134,-23.9877583303397
+150.310549592878,-23.9953884329422
+150.335186931894,-24.0178946001484
+150.310549592878,-24.0403968286581
+150.285912253863,-24.0178946001484
+150.277560613519,-24.0058409392419
+150.257767225902,-23.9877583303397
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

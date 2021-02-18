@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4421_Tara</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4421_Tara 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.47698897936,-27.2108250454414
+150.478954280258,-27.2125728327755
+150.47698897936,-27.2143205926947
+150.475023678462,-27.2125728327755
+150.47698897936,-27.2108250454414
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

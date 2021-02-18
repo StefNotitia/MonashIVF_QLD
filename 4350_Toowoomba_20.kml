@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4350_Toowoomba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4350_Toowoomba 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.899184571104,-27.472144133994
+151.904132918008,-27.4765343941841
+151.899184571104,-27.48824089939
+151.8942362242,-27.4765343941841
+151.899184571104,-27.472144133994
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

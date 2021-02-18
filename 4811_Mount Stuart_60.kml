@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4811_Mount Stuart</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4811_Mount Stuart 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.345165309595,-18.9398868821127
+146.37460162964,-18.9677271865533
+146.345165309595,-18.9955628423165
+146.305578534363,-18.9802058143489
+146.292382942619,-18.9677271865533
+146.305578534363,-18.9552476246001
+146.345165309595,-18.9398868821127
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

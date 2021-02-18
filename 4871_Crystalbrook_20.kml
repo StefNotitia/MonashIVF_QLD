@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4871_Crystalbrook</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4871_Crystalbrook 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+144.497162529825,-17.3569731619649
+144.507216314011,-17.3665688921361
+144.498827992861,-17.3791625252615
+144.497162529825,-17.3807519513794
+144.495497066789,-17.3791625252615
+144.483966938081,-17.3769647459147
+144.470771346337,-17.3779263787502
+144.457575754593,-17.3781850426985
+144.456928735657,-17.3791625252615
+144.444380162848,-17.391137851647
+144.431831590041,-17.3791625252615
+144.431940548862,-17.3665688921361
+144.444380162848,-17.3546959576697
+144.457575754593,-17.3549520050049
+144.470771346337,-17.3552107013921
+144.483966938081,-17.3561724484196
+144.497162529825,-17.3569731619649
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

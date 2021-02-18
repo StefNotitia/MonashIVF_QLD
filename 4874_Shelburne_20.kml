@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4874_Shelburne</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4874_Shelburne 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+142.767272736222,-11.9714444460463
+142.779833649091,-11.9837318934058
+142.767272736222,-11.9960187814602
+142.766269269169,-11.9966395995315
+142.754077144478,-12.0085651818752
+142.752487314147,-12.0095466877774
+142.740881552734,-12.0208981939549
+142.727685960989,-12.0198176976459
+142.714490369245,-12.0145513107199
+142.709373711222,-12.0095466877774
+142.714490369245,-12.0045419718401
+142.727685960989,-11.9992752862117
+142.728930828135,-11.9966395995315
+142.740881552734,-11.9849496279096
+142.741708710033,-11.9837318934058
+142.754077144478,-11.9716327382118
+142.767272736222,-11.9714444460463
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

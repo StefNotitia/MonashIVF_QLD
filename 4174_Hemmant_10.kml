@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4174_Hemmant</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4174_Hemmant 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.152092285552,-27.3994574692798
+153.152952867622,-27.4002215083915
+153.152092285552,-27.4009855422219
+153.151231703482,-27.4002215083915
+153.152092285552,-27.3994574692798
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

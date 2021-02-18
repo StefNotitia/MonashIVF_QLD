@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4301_Collingwood Park</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4301_Collingwood Park 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.793943143344,-27.5720125199645
+152.797541941092,-27.5752025550923
+152.793943143344,-27.5783924974684
+152.787345347471,-27.5776106574279
+152.784628607994,-27.5752025550923
+152.787345347471,-27.5727943998997
+152.793943143344,-27.5720125199645
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

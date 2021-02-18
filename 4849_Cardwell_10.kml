@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4849_Cardwell</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4849_Cardwell 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.945527551599,-18.1933637973475
+145.946127351224,-18.1939336109907
+145.945527551599,-18.1945034227713
+145.944927751974,-18.1939336109907
+145.945527551599,-18.1933637973475
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

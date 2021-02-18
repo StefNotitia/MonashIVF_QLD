@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4123_Rochedale</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4123_Rochedale 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.128881410988,-27.4377065808218
+153.135793387616,-27.4315719458239
+153.142705364244,-27.4377065808218
+153.135793387616,-27.4438408748202
+153.128881410988,-27.4377065808218
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

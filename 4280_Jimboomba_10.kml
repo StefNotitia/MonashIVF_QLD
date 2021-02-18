@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4280_Jimboomba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4280_Jimboomba 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.028769899812,-27.7526043682271
+153.031768897936,-27.7567748798814
+153.033653982471,-27.7584430398127
+153.031768897936,-27.7601111741823
+153.025171102064,-27.7615012666298
+153.018573306192,-27.7642813982668
+153.01197551032,-27.7610379044531
+153.009043156599,-27.7584430398127
+153.01197551032,-27.7558481133191
+153.018573306192,-27.7550371861058
+153.021572304316,-27.7526043682271
+153.025171102064,-27.7494195063059
+153.028769899812,-27.7526043682271
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4380_Broadwater</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4380_Broadwater 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.936679060785,-28.6395639403937
+151.939153234237,-28.6417353817428
+151.936679060785,-28.6439067781464
+151.934204887333,-28.6417353817428
+151.936679060785,-28.6395639403937
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

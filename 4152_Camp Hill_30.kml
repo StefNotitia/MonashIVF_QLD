@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4152_Camp Hill</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4152_Camp Hill 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.067309918575,-27.2549310292868
+153.077206612383,-27.2637286217144
+153.067309918575,-27.2725255180573
+153.057413224767,-27.2637286217144
+153.067309918575,-27.2549310292868
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4372_Tannymorel</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4372_Tannymorel 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.246195591744,-28.0477085052602
+152.25869667866,-28.0587408531769
+152.246195591744,-28.069772068911
+152.233694504829,-28.0587408531769
+152.246195591744,-28.0477085052602
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

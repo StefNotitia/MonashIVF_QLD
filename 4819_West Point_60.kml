@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4819_West Point</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4819_West Point 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.876380162849,-19.0842800928305
+146.910264666707,-19.1162991613259
+146.915024956517,-19.1536987211108
+146.876380162849,-19.1902001679384
+146.875548507907,-19.1910898036375
+146.836793387617,-19.2276871337657
+146.798038267325,-19.1910898036375
+146.797206612383,-19.1904496167895
+146.758297692892,-19.1536987211108
+146.758352202258,-19.1162991613259
+146.797206612383,-19.0795832727063
+146.836793387617,-19.0800352398521
+146.876380162849,-19.0842800928305
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

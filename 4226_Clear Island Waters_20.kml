@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4226_Clear Island Waters</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4226_Clear Island Waters 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.279841143722,-28.0155907805344
+153.277641878431,-28.017532318002
+153.27544261314,-28.0155907805344
+153.277641878431,-28.0136492080614
+153.279841143722,-28.0155907805344
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

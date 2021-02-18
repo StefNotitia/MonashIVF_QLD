@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4360_Nobby</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4360_Nobby 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.976876656281,-27.8919103509476
+151.976276856657,-27.8924404715647
+151.975677057032,-27.8919103509476
+151.976276856657,-27.8913802277343
+151.976876656281,-27.8919103509476
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

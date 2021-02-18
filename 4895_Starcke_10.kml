@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4895_Starcke</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4895_Starcke 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+144.820010946963,-14.7147648204221
+144.821655346012,-14.7211461306135
+144.822276856657,-14.722246337638
+144.827737101516,-14.7275272540766
+144.826143230968,-14.733908190738
+144.822276856657,-14.7376473965473
+144.818410482345,-14.733908190738
+144.815679060785,-14.7331867374189
+144.809827246858,-14.7275272540766
+144.809702775557,-14.7211461306135
+144.811347174606,-14.7147648204221
+144.815679060785,-14.7105749697951
+144.820010946963,-14.7147648204221
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

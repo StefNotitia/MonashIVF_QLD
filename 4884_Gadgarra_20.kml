@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4884_Gadgarra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4884_Gadgarra 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.728597795872,-17.2855612387947
+145.741101366118,-17.297499706999
+145.728597795872,-17.3094374005821
+145.715402204128,-17.3094046144866
+145.702206612384,-17.3092468662246
+145.689011020639,-17.3090364531025
+145.687125936105,-17.3100980804883
+145.675815428896,-17.3208959992502
+145.664504921686,-17.3100980804883
+145.664209667482,-17.297499706999
+145.675815428896,-17.2864184967321
+145.689011020639,-17.285962237436
+145.702206612384,-17.2857517976827
+145.715402204128,-17.2855940291394
+145.728597795872,-17.2855612387947
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

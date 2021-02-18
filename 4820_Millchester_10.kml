@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4820_Millchester</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4820_Millchester 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.336857476192,-20.0393228676431
+146.336081264913,-20.0400520835874
+146.335305053634,-20.0393228676431
+146.336081264913,-20.0385936483136
+146.336857476192,-20.0393228676431
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4017_Bracken Ridge</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4017_Bracken Ridge 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.017309918576,-27.2659628730881
+153.019784092028,-27.2681621182384
+153.019509183866,-27.2740265592501
+153.017309918576,-27.2759813041561
+153.015110653285,-27.2740265592501
+153.014835745124,-27.2681621182384
+153.017309918576,-27.2659628730881
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

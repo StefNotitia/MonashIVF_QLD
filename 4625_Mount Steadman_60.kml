@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4625_Mount Steadman</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4625_Mount Steadman 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.627055103198,-25.1139535183433
+151.613859511454,-25.1259010869418
+151.60066391971,-25.1139535183433
+151.613859511454,-25.1020047818526
+151.627055103198,-25.1139535183433
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

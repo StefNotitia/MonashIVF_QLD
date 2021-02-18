@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4503_Dakabin</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4503_Dakabin 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.989701102064,-26.914960534496
+152.983103306191,-26.9208434995813
+152.976505510319,-26.914960534496
+152.983103306191,-26.9090772627464
+152.989701102064,-26.914960534496
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

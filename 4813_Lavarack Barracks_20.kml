@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4813_Lavarack Barracks</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4813_Lavarack Barracks 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.832184571104,-19.3400986175235
+146.837618050058,-19.3452254015353
+146.842792791918,-19.3576754921403
+146.834383836395,-19.3701246323619
+146.832184571104,-19.3721993966309
+146.829985305814,-19.3701246323619
+146.81898897936,-19.3685286418733
+146.805793387617,-19.3690843506414
+146.792597795872,-19.3693987610744
+146.780171626387,-19.3576754921403
+146.779402204128,-19.357039224349
+146.766881003784,-19.3452254015353
+146.779402204128,-19.3334107234629
+146.792597795872,-19.3335574733502
+146.804963476186,-19.3452254015353
+146.805793387617,-19.3462658354576
+146.81898897936,-19.346821620091
+146.826751092151,-19.3452254015353
+146.832184571104,-19.3400986175235
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

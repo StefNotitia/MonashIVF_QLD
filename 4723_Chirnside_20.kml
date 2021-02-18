@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4723_Chirnside</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4723_Chirnside 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.056206612384,-22.953639016752
+148.058405877675,-22.9556641306269
+148.056206612384,-22.9576892141848
+148.054007347093,-22.9556641306269
+148.056206612384,-22.953639016752
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

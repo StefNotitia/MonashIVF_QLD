@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4518_Glass House Mountains</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4518_Glass House Mountains 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.045380162849,-26.7719469251311
+153.052577758345,-26.7783728031354
+153.046579762098,-26.7901526348766
+153.045380162849,-26.7912234680452
+153.044180563599,-26.7901526348766
+153.032184571104,-26.7839528758293
+153.025934027647,-26.7783728031354
+153.032184571104,-26.7727924561708
+153.045380162849,-26.7719469251311
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

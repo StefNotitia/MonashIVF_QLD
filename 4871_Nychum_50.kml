@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4871_Nychum</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4871_Nychum 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+144.775406324563,-16.5298050580084
+144.808395303923,-16.5318563800768
+144.837311569782,-16.5595753044804
+144.808395303923,-16.5872902420506
+144.775406324563,-16.5893409522472
+144.742417345202,-16.5899680216232
+144.709428365842,-16.5902907754646
+144.708752592963,-16.5911934337385
+144.676439386482,-16.6221588326492
+144.643450407122,-16.6221857867336
+144.611109071076,-16.5911934337385
+144.643450407122,-16.5601960850772
+144.644199816012,-16.5595753044804
+144.676439386482,-16.5286704290241
+144.709428365842,-16.5288549365944
+144.742417345202,-16.529177792815
+144.775406324563,-16.5298050580084
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4723_Lowestoff</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4723_Lowestoff 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.017320939215,-22.7565639128621
+148.018670488371,-22.7578084029389
+148.017320939215,-22.7590528816766
+148.01597139006,-22.7578084029389
+148.017320939215,-22.7565639128621
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

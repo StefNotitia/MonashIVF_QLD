@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4101_Highgate Hill</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4101_Highgate Hill 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.033092285552,-27.4267076942388
+153.034977370087,-27.4283808840495
+153.033092285552,-27.4300540485025
+153.031207201017,-27.4283808840495
+153.033092285552,-27.4267076942388
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

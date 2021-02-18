@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4521_Campbells Pocket</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4521_Campbells Pocket 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.06631403901,-26.7130593692346
+153.053118447266,-26.7012715467313
+153.06631403901,-26.6894825042943
+153.079509630754,-26.7012715467313
+153.06631403901,-26.7130593692346
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

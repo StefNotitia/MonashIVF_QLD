@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4881_Koah</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4881_Koah 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.620679060785,-16.8267104673828
+145.62177869343,-16.8277630159488
+145.62256414532,-16.8340781845255
+145.620679060785,-16.8358824797263
+145.61879397625,-16.8340781845255
+145.61957942814,-16.8277630159488
+145.620679060785,-16.8267104673828
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4650_St Mary</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4650_St Mary 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.74031403901,-25.4094290363533
+152.756614475871,-25.4241517466283
+152.74031403901,-25.4388726587992
+152.72401360215,-25.4241517466283
+152.74031403901,-25.4094290363533
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

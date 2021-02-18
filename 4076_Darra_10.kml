@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4076_Darra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4076_Darra 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.963166693808,-27.5036502794926
+152.965365959099,-27.5056009696396
+152.963166693808,-27.5075516252065
+152.960967428517,-27.5056009696396
+152.963166693808,-27.5036502794926
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

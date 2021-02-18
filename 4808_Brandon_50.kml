@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4808_Brandon</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4808_Brandon 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+147.056582654797,-19.4146594490912
+147.075228599653,-19.4322441901452
+147.073077144478,-19.4633509904822
+147.056582654797,-19.4944518236288
+147.023593675437,-19.4860467819419
+146.999520636445,-19.4633509904822
+147.01809551221,-19.4322441901452
+147.023593675437,-19.4270591438423
+147.056582654797,-19.4146594490912
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

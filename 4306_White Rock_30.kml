@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4306_White Rock</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4306_White Rock 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.79951653096,-27.5784273094391
+152.801315929834,-27.5800222453367
+152.79951653096,-27.5816171580436
+152.797717132085,-27.5800222453367
+152.79951653096,-27.5784273094391
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

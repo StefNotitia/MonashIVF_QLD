@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4205_Bethania</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4205_Bethania 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.104396530959,-27.5008068165452
+153.124189918576,-27.4898332567527
+153.143983306192,-27.4971490848231
+153.151405826548,-27.5037329144028
+153.143983306192,-27.5103163501112
+153.124189918576,-27.5176308166512
+153.104396530959,-27.5066589344586
+153.101097633023,-27.5037329144028
+153.104396530959,-27.5008068165452
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

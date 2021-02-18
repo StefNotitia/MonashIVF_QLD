@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4312_Bryden</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4312_Bryden 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.576542938837,-27.1723529542882
+152.575443306192,-27.1733312237065
+152.56884551032,-27.1743945503055
+152.566550624799,-27.1723529542882
+152.56884551032,-27.1703113209276
+152.575443306192,-27.171374676296
+152.576542938837,-27.1723529542882
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

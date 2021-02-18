@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4886_Millaa Millaa</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4886_Millaa Millaa 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.587815428895,-17.4646859361597
+145.590014694186,-17.4667838078738
+145.587815428895,-17.4688816554181
+145.585616163605,-17.4667838078738
+145.587815428895,-17.4646859361597
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

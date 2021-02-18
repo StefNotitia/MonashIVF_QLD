@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4465_Mitchell</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4465_Mitchell 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+147.924298897936,-26.3543537360708
+147.930160631388,-26.3596061151205
+147.930896693808,-26.3606226883144
+147.93749448968,-26.3618024249478
+147.941641092039,-26.3655177540826
+147.93749448968,-26.3692329638085
+147.930896693808,-26.3704126125721
+147.924298897936,-26.3706302791267
+147.918592696101,-26.3655177540826
+147.917701102064,-26.3649796747623
+147.911703853697,-26.3596061151205
+147.917701102064,-26.3542323057387
+147.924298897936,-26.3543537360708
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

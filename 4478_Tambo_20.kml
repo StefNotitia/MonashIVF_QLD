@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4478_Tambo</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4478_Tambo 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.273641878431,-24.8451020246963
+146.275841143722,-24.8470977253227
+146.273641878431,-24.8490933937605
+146.27144261314,-24.8470977253227
+146.273641878431,-24.8451020246963
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4005_New Farm</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4005_New Farm 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.041701102064,-27.4196981148487
+153.042300901688,-27.4202305299712
+153.041701102064,-27.4207629425271
+153.041101302439,-27.4202305299712
+153.041701102064,-27.4196981148487
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

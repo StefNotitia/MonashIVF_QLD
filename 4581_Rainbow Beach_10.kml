@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4581_Rainbow Beach</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4581_Rainbow Beach 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.088103306191,-25.9835330314661
+153.093111271733,-25.9880347056445
+153.094701102064,-25.98859157414
+153.100679386586,-25.9939652195367
+153.101298897936,-25.9974536173123
+153.104015637413,-25.9998954341294
+153.101298897936,-26.0023372001922
+153.094701102064,-26.0048765830534
+153.089158953531,-25.9998954341294
+153.088103306191,-25.9990602107481
+153.082434777344,-25.9939652195367
+153.08150551032,-25.9913867720088
+153.077776321349,-25.9880347056445
+153.08150551032,-25.9846825436783
+153.088103306191,-25.9835330314661
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

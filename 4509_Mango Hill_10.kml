@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4509_Mango Hill</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4509_Mango Hill 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.026896693808,-27.3038924248809
+153.029613433285,-27.3063064554874
+153.026896693808,-27.3087204335845
+153.024179954332,-27.3063064554874
+153.020298897936,-27.303863686105
+153.016450183677,-27.3004437186472
+153.015900367355,-27.2945806721538
+153.015586186599,-27.2887173160522
+153.020298897936,-27.28452901502
+153.025011609273,-27.2887173160522
+153.024697428518,-27.2945806721538
+153.024147612195,-27.3004437186472
+153.026896693808,-27.3038924248809
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4218_Broadbeach</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4218_Broadbeach 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.421303306192,-27.9676617266107
+153.421903105817,-27.9681914757922
+153.421303306192,-27.9687212223729
+153.420703506567,-27.9681914757922
+153.421303306192,-27.9676617266107
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

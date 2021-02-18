@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4575_Birtinya</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4575_Birtinya 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.072815428896,-26.5794303012603
+153.076585597965,-26.5828019701063
+153.080732783942,-26.5946020291817
+153.072815428896,-26.601681480706
+153.064898073849,-26.5946020291817
+153.069045259826,-26.5828019701063
+153.072815428896,-26.5794303012603
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

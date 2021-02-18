@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4405_Dalby</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4405_Dalby 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.897804408256,-27.2055658132293
+150.891206612384,-27.211433553445
+150.884608816512,-27.2055658132293
+150.891206612384,-27.1996977640908
+150.897804408256,-27.2055658132293
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

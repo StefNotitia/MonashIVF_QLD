@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4020_Newport</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4020_Newport 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.07350551032,-26.8352628003445
+153.082930932994,-26.8436728695626
+153.07350551032,-26.8520823140757
+153.064080087646,-26.8436728695626
+153.07350551032,-26.8352628003445
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4161_Alexandra Hills</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4161_Alexandra Hills 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.081848490814,-27.2568425603516
+153.089388828954,-27.2635454358292
+153.081848490814,-27.2702479072323
+153.074308152675,-27.2635454358292
+153.081848490814,-27.2568425603516
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

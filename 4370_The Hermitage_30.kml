@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_The Hermitage</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_The Hermitage 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.004929755727,-27.9917737815938
+152.000362050893,-27.9877403543091
+152.004929755727,-27.9837067761233
+152.009497460562,-27.9877403543091
+152.004929755727,-27.9917737815938
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

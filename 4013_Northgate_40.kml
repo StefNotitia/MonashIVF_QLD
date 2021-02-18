@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4013_Northgate</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4013_Northgate 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.988721130903,-27.0332226259686
+152.982630857791,-27.0386473638584
+152.976540584678,-27.0332226259686
+152.982630857791,-27.0277976259926
+152.988721130903,-27.0332226259686
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

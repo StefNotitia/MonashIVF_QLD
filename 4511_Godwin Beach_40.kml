@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4511_Godwin Beach</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4511_Godwin Beach 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.020630857791,-26.8478227475255
+153.036025714826,-26.8615573467639
+153.020630857791,-26.8752902786639
+153.005236000756,-26.8615573467639
+153.020630857791,-26.8478227475255
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

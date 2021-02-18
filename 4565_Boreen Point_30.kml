@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4565_Boreen Point</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4565_Boreen Point 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.032103306192,-26.1664558924193
+153.051258197433,-26.1836464596878
+153.0512067998,-26.201407381947
+153.032103306192,-26.2185466824392
+153.012309918576,-26.2184179357336
+153.011117545828,-26.2191655953369
+152.992516530959,-26.2358515666745
+152.972723143343,-26.2354538043703
+152.954565572886,-26.2191655953369
+152.952929755727,-26.2162060812761
+152.936435266047,-26.201407381947
+152.952929755727,-26.1866068014587
+152.972723143343,-26.1857609971991
+152.992516530959,-26.1844963262662
+153.012309918576,-26.1843943426041
+153.01294841495,-26.1836464596878
+153.032103306192,-26.1664558924193
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

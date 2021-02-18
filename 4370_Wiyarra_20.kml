@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Wiyarra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Wiyarra 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.297966938081,-28.1634987494151
+152.302556709123,-28.1675450348939
+152.297966938081,-28.1715911673676
+152.284771346337,-28.1720556370697
+152.279654688313,-28.1675450348939
+152.284771346337,-28.1630342425679
+152.297966938081,-28.1634987494151
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

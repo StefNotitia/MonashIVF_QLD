@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4560_Nambour</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4560_Nambour 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.926896693808,-26.4549805476602
+152.940092285552,-26.4667937526755
+152.926896693808,-26.4786057452128
+152.907103306192,-26.4684045503349
+152.905303907318,-26.4667937526755
+152.907103306192,-26.46518293247
+152.926896693808,-26.4549805476602
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

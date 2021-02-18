@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4820_Alabama Hill</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4820_Alabama Hill 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.23150551032,-20.021349493183
+146.233390594855,-20.0231206428702
+146.23150551032,-20.024891772605
+146.229620425785,-20.0231206428702
+146.23150551032,-20.021349493183
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

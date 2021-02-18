@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4370_Swan Creek</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4370_Swan Creek 50 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.960560613518,-27.7938413968161
+151.972931480778,-27.8047844997998
+151.960560613518,-27.8157265007089
+151.948189746258,-27.8047844997998
+151.960560613518,-27.7938413968161
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

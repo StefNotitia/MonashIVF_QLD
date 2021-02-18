@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4723_Carbine Creek</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4723_Carbine Creek 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+147.775103306192,-23.2340814136848
+147.781701102064,-23.2340523162055
+147.78767427566,-23.2395409588068
+147.788298897936,-23.2406365818107
+147.79370432106,-23.2456032932474
+147.794896693808,-23.2483126273807
+147.798545754095,-23.2516653521737
+147.794896693808,-23.2550179926728
+147.791247633522,-23.2516653521737
+147.788298897936,-23.2505698197548
+147.781701102064,-23.2508516689998
+147.775988916376,-23.2456032932474
+147.775103306192,-23.2450002805447
+147.769161798119,-23.2395409588068
+147.775103306192,-23.2340814136848
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

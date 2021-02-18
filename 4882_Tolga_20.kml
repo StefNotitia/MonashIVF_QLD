@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4882_Tolga</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4882_Tolga 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.426815428895,-17.0120222423348
+145.435298309302,-17.0201337649186
+145.434013024392,-17.0327509901867
+145.426815428895,-17.03963275435
+145.419617833399,-17.0327509901867
+145.413619837152,-17.0201337649186
+145.426815428895,-17.0120222423348
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

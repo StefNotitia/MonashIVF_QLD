@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4816_Ross River</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4816_Ross River 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.838602412645,-19.3625469494873
+146.835885673168,-19.3651100088996
+146.833168933691,-19.3625469494873
+146.834786040523,-19.3563222088874
+146.835885673168,-19.3552847290207
+146.836985305813,-19.3563222088874
+146.838602412645,-19.3625469494873
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

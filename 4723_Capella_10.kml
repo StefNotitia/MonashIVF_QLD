@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4723_Capella</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4723_Capella 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+148.228701102064,-23.0135894619518
+148.23469800578,-23.0191089720805
+148.23458174621,-23.0251812783484
+148.228701102064,-23.0305933208099
+148.227560272807,-23.0312533111225
+148.224302571483,-23.0373250703468
+148.222103306192,-23.0393489292898
+148.219904040901,-23.0373250703468
+148.216646339577,-23.0312533111225
+148.216381323931,-23.0251812783484
+148.222103306192,-23.0199150461753
+148.222704198348,-23.0191089720805
+148.228701102064,-23.0135894619518
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

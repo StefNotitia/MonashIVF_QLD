@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4021_Kippa-Ring</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4021_Kippa-Ring 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.985929755727,-26.9762483382942
+152.992527551599,-26.982128105078
+152.995305570914,-26.9997655621114
+152.985929755727,-27.0081191817006
+152.976553940541,-26.9997655621114
+152.966136368111,-26.9934667877681
+152.9534120475,-26.982128105078
+152.966136368111,-26.9707882798326
+152.985929755727,-26.9762483382942
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

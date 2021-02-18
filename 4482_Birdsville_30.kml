@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4482_Birdsville</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4482_Birdsville 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+139.501015213941,-25.3796688435705
+139.491243794738,-25.3884968754164
+139.481472375535,-25.3796688435705
+139.491243794738,-25.3708401663948
+139.501015213941,-25.3796688435705
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

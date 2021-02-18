@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4382_Lyra</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4382_Lyra 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.866298897936,-28.7577612868007
+151.867398530581,-28.7587252880566
+151.866298897936,-28.7596892804111
+151.865199265291,-28.7587252880566
+151.866298897936,-28.7577612868007
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4032_Chermside</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4032_Chermside 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.979413224768,-26.9597460202155
+152.996704000157,-26.9751566706895
+152.991142639651,-26.9986741226677
+152.979413224768,-27.0091247453962
+152.967683809884,-26.9986741226677
+152.962122449379,-26.9751566706895
+152.979413224768,-26.9597460202155
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

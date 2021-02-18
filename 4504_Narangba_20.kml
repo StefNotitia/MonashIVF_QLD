@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4504_Narangba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4504_Narangba 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.938597795872,-27.0445347654548
+152.946906131414,-27.0519343686117
+152.938597795872,-27.0593334837862
+152.930289460329,-27.0519343686117
+152.938597795872,-27.0445347654548
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

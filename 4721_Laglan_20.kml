@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4721_Laglan</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4721_Laglan 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+146.274380162848,-22.3343805118265
+146.286934420709,-22.3459924890636
+146.286784019088,-22.3581966211013
+146.286377516977,-22.3703996840111
+146.286141451142,-22.3826016773328
+146.274380162848,-22.3934764651422
+146.271830290048,-22.394802600607
+146.266132918008,-22.4070024533743
+146.261184571104,-22.4115771220784
+146.2562362242,-22.4070024533743
+146.250538852161,-22.394802600607
+146.249796594668,-22.3826016773328
+146.248929841517,-22.3703996840111
+146.248854831837,-22.3581966211013
+146.24861748339,-22.3459924890636
+146.261184571104,-22.3343686444441
+146.274380162848,-22.3343805118265
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

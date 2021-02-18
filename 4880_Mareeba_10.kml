@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4880_Mareeba</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4880_Mareeba 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.419887676921,-16.9309776263817
+145.420148459367,-16.9372893433442
+145.419287877296,-16.9381125951656
+145.418427295226,-16.9372893433442
+145.418688077672,-16.9309776263817
+145.419287877296,-16.9304038234337
+145.419887676921,-16.9309776263817
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

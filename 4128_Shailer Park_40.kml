@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4128_Shailer Park</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4128_Shailer Park 40 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.038745184623,-27.3125117072758
+153.028848490815,-27.3213047400323
+153.018951797006,-27.3125117072758
+153.028848490815,-27.3037179775911
+153.038745184623,-27.3125117072758
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

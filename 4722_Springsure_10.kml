@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4722_Springsure</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4722_Springsure 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+147.674712122703,-24.3574595895966
+147.676386190313,-24.3589846394726
+147.674712122703,-24.3605096709703
+147.673038055094,-24.3589846394726
+147.674712122703,-24.3574595895966
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

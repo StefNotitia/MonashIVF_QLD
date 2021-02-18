@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4019_Clontarf</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4019_Clontarf 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.982088013632,-27.1364967097131
+152.975837470174,-27.1420590702483
+152.969586926717,-27.1364967097131
+152.975837470174,-27.1309340723969
+152.982088013632,-27.1364967097131
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

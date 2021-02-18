@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4376_Thulimbah</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4376_Thulimbah 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.963690081424,-28.5077792170658
+151.965212649702,-28.5091171689867
+151.963690081424,-28.5104551039377
+151.962167513146,-28.5091171689867
+151.963690081424,-28.5077792170658
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

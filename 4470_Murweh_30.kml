@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4470_Murweh</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4470_Murweh 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+145.927037182354,-26.9102718485385
+145.939266218014,-26.9211761534866
+145.927037182354,-26.9320794047303
+145.907243794737,-26.9365608743091
+145.887450407121,-26.9374430432821
+145.867657019505,-26.93781647405
+145.847863631889,-26.938019710152
+145.828070244273,-26.9381663693978
+145.808276856657,-26.9382530676746
+145.789122945258,-26.9211761534866
+145.808276856657,-26.9040966543657
+145.828070244273,-26.904183378825
+145.847863631889,-26.9043300820575
+145.867657019505,-26.9045333784846
+145.887450407121,-26.9049069181859
+145.907243794737,-26.9057893346752
+145.927037182354,-26.9102718485385
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

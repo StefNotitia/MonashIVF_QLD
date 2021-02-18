@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4892_South Wellesley Islands</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4892_South Wellesley Islands 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+139.601863631889,-17.1086231613353
+139.607801648174,-17.1142983264542
+139.607685629901,-17.1206038624767
+139.601863631889,-17.1261677883138
+139.595265836017,-17.1262142089854
+139.589395263465,-17.1206038624767
+139.589267873224,-17.1142983264542
+139.595265836017,-17.1085658675261
+139.601863631889,-17.1086231613353
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

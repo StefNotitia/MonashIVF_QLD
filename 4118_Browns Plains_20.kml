@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4118_Browns Plains</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4118_Browns Plains 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.125966938081,-27.5501638074116
+153.12716653733,-27.5512273744197
+153.125966938081,-27.552290931128
+153.112771346336,-27.552290931128
+153.111571747087,-27.5512273744197
+153.107822999433,-27.5395275709033
+153.112771346336,-27.535139823353
+153.117719693241,-27.5395275709033
+153.125966938081,-27.5501638074116
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

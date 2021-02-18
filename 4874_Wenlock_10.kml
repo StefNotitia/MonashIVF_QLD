@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4874_Wenlock</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4874_Wenlock 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+142.628298897936,-12.4241045254464
+142.629126758255,-12.4249129975529
+142.628298897936,-12.4257214671459
+142.627471037618,-12.4249129975529
+142.628298897936,-12.4241045254464
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4025_Bulwer</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4025_Bulwer 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.198365021774,-27.0533487897064
+153.198365021774,-27.0491959594276
+153.203027980147,-27.0533487897064
+153.203530737922,-27.0592245234524
+153.204962817646,-27.0603837447243
+153.210258896065,-27.0650999494089
+153.210293660439,-27.0709750675303
+153.210681489727,-27.076849877771
+153.210932989953,-27.0827243800854
+153.204962817646,-27.0880397976172
+153.198365021774,-27.0876434418453
+153.198365021774,-27.0827243800854
+153.198365021774,-27.076849877771
+153.198365021774,-27.0709750675303
+153.198365021774,-27.0650999494089
+153.198365021774,-27.0592245234524
+153.198365021774,-27.0533487897064
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

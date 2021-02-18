@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4215_Labrador</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4215_Labrador 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.404424169665,-27.9116265410092
+153.401298897936,-27.9143882166782
+153.394701102064,-27.9132923220745
+153.392816017529,-27.9116265410092
+153.394701102064,-27.9099607342887
+153.401298897936,-27.9088647948239
+153.404424169665,-27.9116265410092
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4630_Monto</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4630_Monto 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+150.981597795872,-24.8338494802262
+150.99172464535,-24.8430395538725
+150.994793387616,-24.8439072682139
+151.00703277706,-24.8550134743716
+150.994793387616,-24.8661186833643
+150.994104322773,-24.8669862358125
+150.991636547486,-24.8789578377846
+150.981597795872,-24.8880646433217
+150.971559044258,-24.8789578377846
+150.969091268971,-24.8669862358125
+150.969185325299,-24.8550134743716
+150.971470946394,-24.8430395538725
+150.981597795872,-24.8338494802262
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4572_Alexandra Headland</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4572_Alexandra Headland 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.076928375686,-26.524511634597
+153.078988175373,-26.5363176958955
+153.079807413885,-26.5481225424968
+153.06901102064,-26.5577801495957
+153.058214627394,-26.5481225424968
+153.055815428895,-26.5363176958955
+153.061093665593,-26.524511634597
+153.06901102064,-26.5174274149197
+153.076928375686,-26.524511634597
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

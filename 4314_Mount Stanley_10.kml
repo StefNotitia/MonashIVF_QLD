@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4314_Mount Stanley</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4314_Mount Stanley 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.198527714448,-26.5007615178895
+152.20512551032,-26.5003080181384
+152.210659145567,-26.5052601384812
+152.211121866276,-26.5111643106999
+152.20512551032,-26.5165300089047
+152.199129154364,-26.5111643106999
+152.198527714448,-26.509758582934
+152.193500822355,-26.5052601384812
+152.198527714448,-26.5007615178895
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

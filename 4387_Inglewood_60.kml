@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4387_Inglewood</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4387_Inglewood 60 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.581595016102,-28.2839149807896
+151.588192811974,-28.2897249100165
+151.581595016102,-28.2955345221774
+151.57499722023,-28.2897249100165
+151.581595016102,-28.2839149807896
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

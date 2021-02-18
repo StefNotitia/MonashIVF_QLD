@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4380_Nundubbermere</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4380_Nundubbermere 30 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+151.96883056997,-28.501283149193
+151.976253090326,-28.5078059061564
+151.96883056997,-28.5143282598288
+151.961408049614,-28.5078059061564
+151.96883056997,-28.501283149193
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

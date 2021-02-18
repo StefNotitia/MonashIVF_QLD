@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4570_Gympie</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4570_Gympie 20 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+152.570815428896,-26.0018963361094
+152.575213959477,-26.0058495788607
+152.570815428896,-26.0098026885469
+152.566416898314,-26.0058495788607
+152.570815428896,-26.0018963361094
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+<name>4214_Arundel</name>
+<description><![CDATA[]]></description>
+
+<Placemark>
+<name>4214_Arundel 10 min</name>
+<description><![CDATA[]]></description>
+<visibility>1</visibility>
+<Style><LineStyle><width>1</width><color>ffffffff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+<MultiGeometry>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing><coordinates>
+153.316516530959,-27.9036096108278
+153.318990704412,-27.9057961052524
+153.316516530959,-27.9079825554878
+153.314042357507,-27.9057961052524
+153.316516530959,-27.9036096108278
+</coordinates></LinearRing>
+</outerBoundaryIs>
+</Polygon>
+</MultiGeometry>
+</Placemark>
+
+</Document>
+</kml>
