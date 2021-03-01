@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+
+body{ /* Normal  */
+      font-size: 14px;
+      font-family: 'Karla', sans-serif;
+      color: #666666;
+  }
+  
+td {  /* Table  */
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  color: #666666;
+}
+
+h1 { /* Header 1 */
+  font-size: 40px;
+  font-family: 'Karla', sans-serif;
+  color: #666666;
+  text-align: center;
+}
+
+h2 { /* Header 2 */
+    font-size: 35px;
+    font-family: 'Karla', sans-serif;
+    color: #666666;
+    text-align: center;
+}
+
+h3 { /* Header 3 */
+  font-size: 30px;
+  font-family: 'Karla', sans-serif;
+  color: #666666;
+}
+
+h4 { /* Header 3 */
+  font-size: 8px;
+  font-family: 'Karla', sans-serif;
+  color: #666666;
+  text-align: center;
+}
+
+code.r{ /* Code block */
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    color: #666666;
+}
+
+
+p.caption {
+  font-size: 0.9em;
+  font-style: italic;
+  color: #666666;
+  margin-right: 10%;
+  margin-left: 10%;  
+  text-align: justify;
+}
+
+/* ---------- TOC ----------------- */
+#TOC {
+  top: 30%;
+  position: fixed;
+  width: 210px;
+}
+.tocify {
+  border: none;
+  color: grey;
+  border-radius: 0px;
+}
+.list-group-item.active {
+    color: #BAECCD;
+    background-color: white;
+    border-left: solid;
+    border-color: #BAECCD;
+}
+.list-group-item:hover {
+    color: #BAECCD;
+    background-color: white;
+    border-left: solid;
+    border-color: #BAECCD;
+}
+.tocify-extend-page {
+  display: none;
+}
+
+
+/* ------ This is just to fix the bug on Safari where table of content is on top of content */
+.toc-content {
+  margin-left: 230px
+}
+
+
+
+/* ---------- Button ----------------- */
+.btn {
+    border-width: 0 0px 0px 0px;
+    font-weight: bold;
+    text-transform: ;
+    color: ;
+}
+.btn-default {
+    color: #DBDBDB;
+    background-color: #F3F3F3;
+    border-color: #F3F3F3;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #BAECCD;
+}
+
+
+/* ---------- Leaflet ----------------- */
+
+.leaflet {
+    margin: auto;
+}

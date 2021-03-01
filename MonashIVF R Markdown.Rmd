@@ -1,0 +1,612 @@
+---
+##title: "MonashIVF Group - Future Brisbane Clinic Analysis"
+##author: "Notitia"
+##date: "23/02/2021"
+logo: "NotitiaLogo.png"
+output: 
+  html_document:
+    code_folding: "hide"
+    highlight: null
+    css: style.css
+    includes:
+#      before_body: header.html
+      after_body: footer.html
+---
+<style type="text/css">
+.main-container {
+  max-width: 1100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+</style>
+
+<br><br><br><br>
+
+
+<left>
+![FigName](NotitiaLogo.png){width=20%}
+</left>
+<left>
+![FigName](BlackHorizontalLine.png)
+</left>
+
+<br><br>
+
+# **Potential Future Brisbane Clinic Analysis**
+## **MonashIVF Group**
+
+<br><br>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#Packages required
+
+library(mapsapi)
+library(plotly)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tibble)
+library(ggforce)
+library(units)
+library(tidyr)
+library(ggmap)
+library(DT)
+library(knitr)
+library(devtools)
+library(tmaptools)
+library(RCurl)
+library(jsonlite)
+library(tidyverse)
+library(leaflet)
+library(openrouteservice)
+library(mapview)
+library(osrm)
+library(sf)
+library(reshape2)
+library(googlePolylines)
+library(xml2)
+library(kableExtra)
+
+# one-time API key set-up
+ors_api_key("5b3ce3597851110001cf6248b376e02542c242658eda178ccdae158c")
+#register_google(key = "AIzaSyDL8XvPwNR5o_IxnqtocWfN-0m3qAH0fBs")
+
+
+
+icon.red <- awesomeIcons(
+  icon = "medkit",
+  library = "fa",
+  iconColor = "#ffffff",
+  markerColor = "red"
+)
+
+icon.orange <- awesomeIcons(
+  icon = "ios-close",
+  library = "ion",
+  iconColor = "#ffffff",
+  markerColor = "orange"
+)
+
+icon.blue <- awesomeIcons(
+  icon = "",
+  library = "fa",
+  iconColor = "#ffffff",
+  markerColor = "blue"
+)
+
+icon.bus <- awesomeIcons(
+  icon = "bus",
+  library = "fa",
+  iconColor = "#ffffff",
+  markerColor = "blue"
+)
+
+
+# one-time API key set-up
+#ors_api_key("5b3ce3597851110001cf6248b376e02542c242658eda178ccdae158c")
+#register_google(key = "AIzaSyDL8XvPwNR5o_IxnqtocWfN-0m3qAH0fBs")
+
+# Generate Latitude and Longitudes
+#Potential Future Sites
+  
+#df_future <- data.frame(
+#  rooms = c( "339 Coronation Drive, QLD 4064",
+#             "33 Park Road,  QLD 4064",
+#             "Kings Row Office Park, QLD 4064",
+#             "RiverCity Private Hospital, QLD 4066"),
+#  stringsAsFactors = FALSE
+#)  
+
+#df_future <- mutate_geocode(df_future, rooms)
+#write.csv(df_future, "df_future.csv")
+
+#Hospital
+
+#df_hospital <- data.frame(
+#  rooms = c("The Wesley Hospital, QLD 4066"
+#  ),
+#  stringsAsFactors = FALSE)
+
+#df_hospital <-  mutate_geocode(df_hospital, rooms)
+#write.csv(df_hospital, "df_hospital.csv")
+
+#Current Sites
+
+#df_current <- data.frame(
+# rooms = c("St Andrew’s Place, QLD 4000", 
+#            "Sunnybank Centre for Women, QLD 4109",
+#            "Northwest Private Hospital, QLD 4053",
+#            "North Lakes Specialist Medical Centre, QLD 4509"
+#  ),
+#  stringsAsFactors = FALSE
+#)
+
+#df_current <- mutate_geocode(df_current, rooms)
+#write.csv(df_current, "df_current.csv")
+
+df_current<-read.csv("df_current.csv")
+df_hospital<-read.csv("df_hospital.csv")
+df_future<-read.csv("df_future.csv")
+
+```
+
+### Introduction
+
+The purpose of the following analysis was to recommend a future clinic site to MonashIVF QLD, based on the optimum middle point in relation to the current clinics and the hospital locations.
+
+The analysis considered the distance and driving duration from the current clinic locations to the future site and on to the hospital.It was necessary to create tables containing the latitudes and longitudes for the current clinics, hospital and potential new sites.
+
+### Potential Locations Latitudes and Longitudes
+
+The potential new sites latitudes and longitudes display their location is within a 1km radius of each other on the rivers north side between Auchenflower and Milton. Providing an initial indication that there could be minimal differences in travel time between future sites and the current clinics and hospital.
+
+```{r Figure Potential Locations, fig.align = 'center'}
+
+FutureSites <- select(df_future, c(2:4))
+
+# PLOT WITH LEAFLET
+FutureLocation <- leaflet() %>%  addTiles() %>% 
+  setView(153.003,-27.475, 14) %>%
+  addAwesomeMarkers(lng =df_future$lon, lat = df_future$lat, 
+                    icon = icon.orange,
+                    label = FutureSites$rooms) %>%
+  addCircles(lng = df_future$lon[1], lat = df_future$lat[1], radius = 1000)
+
+FutureLocation
+```
+<p style="text-align: center;">
+*Figure: Potential locations on map of Brisbane*
+</p>
+
+
+```{r Table Distance between Potential Locations, fig.align = 'center'}
+
+FutureSitesDistance <- osrmTrip(loc = FutureSites)
+
+FutureSitesDistance <- FutureSitesDistance[[1]]$trip
+
+FutureSitesDistanceSummary <- FutureSitesDistance@data %>%
+  mutate(distance = round(distance, 1),
+  duration = round(duration, 1))
+
+FutureSitesDistanceSummary <- select(FutureSitesDistanceSummary, c(1:2),4)
+
+FutureSitesDistanceSummary <- FutureSitesDistanceSummary %>% 
+  rename(
+    Start = start,
+    End = end,
+    'Distance (km)' = distance)
+
+FutureSitesDistanceSummary <- kbl(FutureSitesDistanceSummary) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), 
+                full_width = F, position = "center")
+
+FutureSitesDistanceSummary
+
+```
+<p style="text-align: center;">
+*Table: Distance between potential locations*
+</p>
+
+<br>
+
+### Travel Time
+
+The below visualisation displays an hour-long drive time polygons from the four potential news sites at 10-minute intervals. This visualisation supports the initial findings of the relatively little difference in the possible new sites locations as the polygons are nearly identical. Indicating that you can travel to the same places from each of these sites in relatively the same time.
+
+```{r Figure Drive Times}
+
+#Polygons using osrm API and Isochrone
+iso1 <- osrmIsochrone(loc = c(df_future$lon[1], df_future$lat[1]), breaks = seq(from = 0,to = 60, by = 10))
+iso2 <- osrmIsochrone(loc = c(df_future$lon[2], df_future$lat[2]), breaks = seq(from = 0,to = 60, by = 10))
+iso3 <- osrmIsochrone(loc = c(df_future$lon[3], df_future$lat[3]), breaks = seq(from = 0,to = 60, by = 10))
+iso4 <- osrmIsochrone(loc = c(df_future$lon[4], df_future$lat[4]), breaks = seq(from = 0,to = 60, by = 10))
+
+#Adding text for legend
+iso1@data$drive_times <- factor(paste(iso1@data$min, "to", iso1@data$max, "min"))
+
+#Adding drive time colour
+factpal <- colorFactor("RdYlBu", iso1@data$drive_times)
+
+#Map
+leaflet() %>%
+  addTiles() %>% 
+  addMarkers(lng =df_current$lon, lat = df_current$lat, 
+             popup = df_current$rooms, label = df_current$rooms) %>%
+  addAwesomeMarkers(lng =df_hospital$lon, lat = df_hospital$lat, 
+                    label = df_hospital$hospitals, icon = icon.red) %>%
+  addAwesomeMarkers(lng =df_future$lon, lat = df_future$lat, icon = icon.orange,
+                    label = df_future$rooms) %>%
+  setView(153.003,-27.475, 9) %>%
+  addPolygons(fill=TRUE, stroke=TRUE, color = "black",
+              fillColor = ~factpal(iso1@data$drive_times),
+              weight=0.5, fillOpacity=0.2,
+              data = iso1) %>% 
+  
+  addPolygons(fill=TRUE, stroke=TRUE, color = "black",
+              fillColor = ~factpal(iso1@data$drive_times),
+              weight=0.5, fillOpacity=0.2,
+              data = iso2) %>% 
+  
+  addPolygons(fill=TRUE, stroke=TRUE, color = "black",
+              fillColor = ~factpal(iso1@data$drive_times),
+              weight=0.5, fillOpacity=0.2,
+              data = iso3) %>% 
+  
+  addPolygons(fill=TRUE, stroke=TRUE, color = "black",
+              fillColor = ~factpal(iso1@data$drive_times),
+              weight=0.5, fillOpacity=0.2,
+              data = iso4) %>% 
+  
+  addLegend("bottomright", pal = factpal, values = iso1@data$drive_time,   title = "Drive Time")
+
+
+```
+<p style="text-align: center;">
+*Figure: Hour-long drive time polygon at 10 minute intervals from possible new site locations*
+</p>
+
+<br>
+
+### Drive Time Summary
+
+```{r Drive Time from current locations to new}
+
+
+coordinates11 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[1], df_future$lat[1]))
+coordinates12 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[2], df_future$lat[2]))
+coordinates13 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[3], df_future$lat[3]))
+coordinates14 <- list(c(df_current$lon[1], df_current$lat[1]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinates21 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[1], df_future$lat[1]))
+coordinates22 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[2], df_future$lat[2]))
+coordinates23 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[3], df_future$lat[3]))
+coordinates24 <- list(c(df_current$lon[2], df_current$lat[2]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinates31 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[1], df_future$lat[1]))
+coordinates32 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[2], df_future$lat[2]))
+coordinates33 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[3], df_future$lat[3]))
+coordinates34 <- list(c(df_current$lon[3], df_current$lat[3]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinates41 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[1], df_future$lat[1]))
+coordinates42 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[2], df_future$lat[2]))
+coordinates43 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[3], df_future$lat[3]))
+coordinates44 <- list(c(df_current$lon[4], df_current$lat[4]), c(df_future$lon[4], df_future$lat[4]))
+
+coordinatesH1 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[1], df_future$lat[1]))
+coordinatesH2 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[2], df_future$lat[2]))
+coordinatesH3 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[3], df_future$lat[3]))
+coordinatesH4 <- list(c(df_hospital$lon[1], df_hospital$lat[1]), c(df_future$lon[4], df_future$lat[4])) 
+
+# find route 
+
+route11 <- ors_directions(coordinates11, format="geojson")
+route12 <- ors_directions(coordinates12, format="geojson")
+route13 <- ors_directions(coordinates13, format="geojson")
+route14 <- ors_directions(coordinates14, format="geojson")
+
+route21 <- ors_directions(coordinates21, format="geojson")
+route22 <- ors_directions(coordinates22, format="geojson")
+route23 <- ors_directions(coordinates23, format="geojson")
+route24 <- ors_directions(coordinates24, format="geojson")
+
+route31 <- ors_directions(coordinates31, format="geojson")
+route32 <- ors_directions(coordinates32, format="geojson")
+route33 <- ors_directions(coordinates33, format="geojson")
+route34 <- ors_directions(coordinates34, format="geojson")
+
+route41 <- ors_directions(coordinates41, format="geojson")
+route42 <- ors_directions(coordinates42, format="geojson")
+route43 <- ors_directions(coordinates43, format="geojson")
+route44 <- ors_directions(coordinates44, format="geojson")
+
+routeH1 <- ors_directions(coordinatesH1, format="geojson")
+routeH2 <- ors_directions(coordinatesH2, format="geojson")
+routeH3 <- ors_directions(coordinatesH3, format="geojson")
+routeH4 <- ors_directions(coordinatesH4, format="geojson")
+
+
+TravelTime <- leaflet() %>% addTiles() %>%
+  setView(153.003,-27.475, 10) %>%
+  addMarkers(lng =df_current$lon, lat = df_current$lat, 
+             popup = df_current$rooms, label = df_current$rooms) %>%
+  addAwesomeMarkers(lng =df_hospital$lon, lat = df_hospital$lat, label = df_hospital$hospitals, icon = icon.red) %>%
+  addAwesomeMarkers(lng =df_future$lon, lat = df_future$lat, icon = icon.orange, label = df_future$rooms)  %>%
+  
+  addPolygons(fill=TRUE, stroke=TRUE, color = "black",
+              fillColor = ~factpal(iso1@data$drive_times),
+              weight=0.5, fillOpacity=0.2,
+              data = iso1) %>%
+  
+  addGeoJSON(route11, fill=FALSE) %>% addGeoJSON(route12, fill=FALSE) %>% 
+  addGeoJSON(route13, fill=FALSE) %>% addGeoJSON(route14, fill=FALSE) %>%
+  
+  addGeoJSON(routeH1, fill=FALSE) %>% addGeoJSON(routeH2, fill=FALSE) %>%  
+  addGeoJSON(routeH3, fill=FALSE) %>% addGeoJSON(routeH4, fill=FALSE) %>%  
+  
+  addGeoJSON(route21, fill=FALSE) %>% addGeoJSON(route22, fill=FALSE) %>%  
+  addGeoJSON(route23, fill=FALSE) %>% addGeoJSON(route24, fill=FALSE) %>%  
+  
+  addGeoJSON(route31, fill=FALSE) %>% addGeoJSON(route32, fill=FALSE) %>%  
+  addGeoJSON(route33, fill=FALSE) %>% addGeoJSON(route34, fill=FALSE) %>%  
+  
+  addGeoJSON(route41, fill=FALSE) %>% addGeoJSON(route42, fill=FALSE) %>%  
+  addGeoJSON(route43, fill=FALSE) %>% addGeoJSON(route44, fill=FALSE) %>% 
+  
+  addLegend("bottomright", pal = factpal, values = iso1@data$drive_time,   title = "Drive Time")
+
+TravelTime
+
+```
+<p style="text-align: center;">
+*Figure: Travel routes from possible new locations to current sites*
+</p>
+
+```{r Table for Duration and Distance between possible new locations to current sites}
+
+    # route length in kilometres and duration in hours
+    DD11 <-round(unlist(route11$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD11 <- data.frame(t(DD11))
+    DD11 <- DD11  %>% add_column(Future = df_future$rooms[1], Current = df_current$rooms[1])
+   
+    DD12 <-round(unlist(route12$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD12 <- data.frame(t(DD12))
+    DD12 <- DD12  %>% add_column(Future = df_future$rooms[2], Current = df_current$rooms[1])
+    
+    DD13 <-round(unlist(route13$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD13 <- data.frame(t(DD13))
+    DD13 <- DD13  %>% add_column(Future = df_future$rooms[3], Current = df_current$rooms[1])
+    
+    DD14 <-round(unlist(route14$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD14 <- data.frame(t(DD14))
+    DD14 <- DD14  %>% add_column(Future = df_future$rooms[4], Current = df_current$rooms[1])
+    
+    # route length in kilometres and duration in hours
+    DD21 <-round(unlist(route21$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD21 <- data.frame(t(DD21))
+    DD21 <- DD21  %>% add_column(Future = df_future$rooms[1], Current = df_current$rooms[2])
+    
+    DD22 <-round(unlist(route22$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD22 <- data.frame(t(DD22))
+    DD22 <- DD22  %>% add_column(Future = df_future$rooms[2], Current = df_current$rooms[2])
+    
+    DD23 <-round(unlist(route23$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD23 <- data.frame(t(DD23))
+    DD23 <- DD23  %>% add_column(Future = df_future$rooms[3], Current = df_current$rooms[2])
+    
+    DD24 <-round(unlist(route24$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD24 <- data.frame(t(DD24))
+    DD24 <- DD24  %>% add_column(Future = df_future$rooms[4], Current = df_current$rooms[2])
+    
+    # route length in kilometres and duration in hours
+    DD31 <-round(unlist(route31$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD31 <- data.frame(t(DD31))
+    DD31 <- DD31  %>% add_column(Future = df_future$rooms[1], Current = df_current$rooms[3])
+    
+    DD32 <-round(unlist(route32$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD32 <- data.frame(t(DD32))
+    DD32 <- DD32  %>% add_column(Future = df_future$rooms[2], Current = df_current$rooms[3])
+    
+    DD33 <-round(unlist(route33$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD33 <- data.frame(t(DD33))
+    DD33 <- DD33  %>% add_column(Future = df_future$rooms[3], Current = df_current$rooms[3])
+    
+    DD34 <-round(unlist(route34$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD34 <- data.frame(t(DD34))
+    DD34 <- DD34  %>% add_column(Future = df_future$rooms[4], Current = df_current$rooms[3])
+    
+    # route length in kilometres and duration in hours
+    DD41 <-round(unlist(route41$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD41 <- data.frame(t(DD41))
+    DD41 <- DD41  %>% add_column(Future = df_future$rooms[1], Current = df_current$rooms[4])
+    
+    DD42 <-round(unlist(route42$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD42 <- data.frame(t(DD42))
+    DD42 <- DD42  %>% add_column(Future = df_future$rooms[2], Current = df_current$rooms[4])
+    
+    DD43 <-round(unlist(route43$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD43 <- data.frame(t(DD43))
+    DD43 <- DD43  %>% add_column(Future = df_future$rooms[3], Current = df_current$rooms[4])
+    
+    DD44 <-round(unlist(route44$features[[1]]$properties$summary) / c(1000, 60), 2)
+    DD44 <- data.frame(t(DD44))
+    DD44 <- DD44  %>% add_column(Future = df_future$rooms[4], Current = df_current$rooms[4])
+    
+    
+    DistanceDurations <- rbind(DD11, DD12, DD13, DD14, DD21, DD22, DD23, DD24,
+                               DD31, DD32, DD33, DD34, DD41, DD42, DD43, DD44)
+    
+    
+    DistanceDurations <- DistanceDurations[, c(4, 3, 1, 2)]
+    
+    DistanceDurations <- DistanceDurations %>% 
+      rename(
+        'Future Sites' = Future,
+        'Current Sites' = Current,
+        'Duration (min)' = duration,
+        'Distance (km)' = distance)
+
+    DistanceDurations <- kbl(DistanceDurations) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), 
+                full_width = F, position = "center")
+
+DistanceDurations
+
+    
+```
+<p style="text-align: center;">
+*Table: Distance and duration between possible new locations and current sites*
+</p>
+
+<br>
+
+The specific distance and driving duration between the potential and current sites support our initial insight. These distances only vary by a couple of kilometers at the max, equating to only a few minutes different.
+
+To continue the drive time analysis, we incorporated the googles historical traffic information to understand if one of the clinics were less likely to be impacted based on their position on the rivers northern bank. However, this is not the case as each potential site is affected by heavy traffic condition in a similar matter.
+
+To finalise the duration and distance analysis the following graph, “Duration and Distance Impact on Current to Potential Future Sites”, was produced displaying the average duration compared to the distance between the current and potential new sites. The graph is then overlaid with the impact of traffic conditions by increasing or decreasing the size of the points. The only noticeable insight from the graph is that there is a minor increase of 3 to 4 minutes in the duration for the River City when traveling to the current clinics, St Andrews, SunnyBank, Northwest, Place Northlake. Otherwise, this graph reiterates our previous findings that their is minimal difference between the potential new site locations and the duration or distance to the current sites, as the future site generate clusters associated with the current sites.
+
+
+## Duration impacted by Traffic Conditions {.tabset}
+
+### Graph
+```{r}
+
+#Following code produces an output which can be loaded in to reduce the use of the google API
+
+#Google API connection
+#key = "AIzaSyDL8XvPwNR5o_IxnqtocWfN-0m3qAH0fBs"
+
+#Data Transformation for matrix
+#current = data.frame(lon = CurrentLocations$lon, lat = CurrentLocations$lat)
+#current = as.matrix(current[1:5,])
+#future = data.frame(lon = df_future$lon, lat = df_future$lat)
+#future = as.matrix(future[1:4,])                             
+
+#doc = as_xml_document(response_matrix)
+
+#doc = mp_matrix(
+#  origins = current,
+#  destinations =  future,
+#  mode = "driving",
+#  arrival_time = NULL,
+#  departure_time = as.POSIXct(strptime("2021-03-03 18:00:00", "%Y-%m-%d %H:%M:%S")),
+#  avoid = NULL,
+#  region = NULL,
+#  traffic_model = NULL,
+#  key,
+#  quiet = FALSE)
+
+#pessimistic = data.frame(round(mp_get_matrix(doc, value = "duration_in_traffic_s")/60, 1))
+#optimistictime = data.frame(round(mp_get_matrix(doc, value = "duration_s")/60, 1))
+#optimistic = data.frame(round(mp_get_matrix(doc, value = "distance_m"), 1))
+
+#Export
+#write.csv(optimistic, "optimistic.csv")
+#write.csv(optimistictime, "optimistictime.csv")
+#write.csv(pessimistic, "pessimistic.csv")
+
+#qick edit in excel faster
+##df.long <- pivot_longer(optimistic, cols=1:4, names_to = "TravelLocation", values_to = "Duration")
+
+GoogleOutput <-read.csv("ClinicTravelTimes.csv")
+
+ggplot(GoogleOutput, aes(Distance, Duration, size = Traffic)) + 
+  xlim(0, 35) + ylim(0, 37) + labs(colour = "Future Sites") +
+  theme_bw() + theme(axis.line = element_line(colour = "darkgrey"),
+                     panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(),
+                     panel.border = element_blank(),
+                     axis.ticks = element_blank(),
+                     panel.background = element_blank(),
+                     axis.title  = element_text(colour = "#676767")) +
+  geom_point(aes(color = FutureSites)) + 
+  labs(x = "Distance from current to future sites") +
+  labs(y = "Duration from current to future sites") +
+  annotate(geom = "text", x = 26.7, y = 35.6, label = "North Lakes", color = "#676767") +
+  annotate(geom = "text", x = 16.5, y = 15.3, label = "SunnyBank", color = "#676767") +
+  annotate(geom = "text", x = 12.0, y = 24.7, label = "Northwest", color = "#676767") +
+  annotate(geom = "text", x = 6.0, y = 11.2, label = "St Andrew's Place", color = "#676767") +
+  annotate(geom = "text", x = 6.2, y = 1.5, label = "The Wesley Hospital", color = "#676767") +
+  geom_rect(aes(fill = "The Wesley Hospital"), xmin = 0, xmax = 3,
+            ymin = 2.5, ymax = 5.5, alpha = 0.01) +
+  geom_rect(aes(fill = "St Andrew's Place"),xmin = 1.4, xmax = 5.5, 
+            ymin = 6, ymax = 10.5, alpha = 0.01) +
+  geom_rect(aes(fill = "Northwest"),xmin = 11, xmax = 16, 
+            ymin = 18, ymax = 24, alpha = 0.01) +
+  geom_rect(aes(fill = "SunnyBank"),xmin = 15, xmax = 19, 
+            ymin = 16, ymax = 22, alpha = 0.01) +
+  geom_rect(aes(fill = "Northlake"),xmin = 27, xmax = 33,
+            ymin = 30, ymax = 35, alpha = 0.01) +
+  scale_fill_manual(breaks = c("The Wesley Hospital", "St Andrew's Place", "Northwest",
+                               "SunnyBank", "Northlake"), 
+                    values = c("yellow","green", "deep sky blue", "orange", "pink"),
+                    guide = guide_legend(title = "Current Sites", 
+                                         override.aes = list(alpha = 0.1)))
+
+```
+<p style="text-align: center;">
+*Figure: Distance, duration and impact of traffic between possible new locations and current sites*
+</p>
+
+
+### Table
+```{r}
+
+ImpactOfTraffic <- GoogleOutput %>% 
+  rename(
+    'Future Sites' = FutureSites,
+    'Current Sites' = CurrentSites,
+    'Duration (min)' = Duration,
+    'Distance (km)' = Distance,
+    'In Traffic (min)' = Traffic)
+
+ImpactOfTraffic <- kbl(ImpactOfTraffic) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"), 
+                full_width = F, position = "center")
+
+ImpactOfTraffic
+
+```
+<p style="text-align: center;">
+*Table: Distance, duration and impact of traffic between possible new locations and current sites*
+</p>
+
+## {-}
+
+
+<br>
+
+### Location of Public Transport
+
+The final analysis, including reviewing the public transport options around the potential clinics; however, no specific clinic has an advantage over one of the others as all clinics have easy access to the same variations of transport.
+
+
+```{r}
+
+
+BrisbanePublicTransportStops <-read.csv("BrisbanePublicTransportStops.csv")
+
+leaflet() %>%  addTiles() %>% 
+  setView(153.003,-27.475, 14) %>%
+  addAwesomeMarkers(lng =df_future$lon, lat = df_future$lat, 
+                    icon = icon.orange,
+                    label = FutureSites$rooms) %>%
+  addCircles(lng = df_future$lon[1], lat = df_future$lat[1], radius = 1000, fillColor = "transparent", color = "red") %>%
+  addAwesomeMarkers(lng =df_hospital$lon, lat = df_hospital$lat, label = df_hospital$hospitals, icon = icon.red) %>%
+  addAwesomeMarkers(lng =BrisbanePublicTransportStops$stop_lon, lat = BrisbanePublicTransportStops$stop_lat, icon = icon.bus)
+  
+```
+<p style="text-align: center;">
+*Figure: Location of public transport in relation to new sites*
+</p>
+
+
+After reviewing each of the above piece of analysis it is clear there is little different in the proposed location for the future Monash IVF clinic in QLD based on the duration or drive time to the current clinics and hospital.
+
+To truly understand which location would be the best for the future clinic further analysis should be performed to consider other variables that would impact the choice of the future clinic such as costs, number of doctors, etc. This would allow a more in detail cost weighted analysis to be performed to indicate which new site would be most effective and efficient.
+
+<br><br>
